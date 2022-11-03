@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<!DOCTYPE framework SYSTEM "Q:\rules\ald8_iwriter.dtd">
+<framework>
+    <framework_title>报告数据：图表</framework_title>
+    <framework_intro>
+        <para>写此类报告时，建议采用以下结构。将报告要点和内容填写到相应位置。</para>
+            
+    </framework_intro>
+    <guided_tour>
+        <step label="图表显示什么？">
+            <commentary>
+                <para>图表可用于比较多个不同事物。线形图通常用于显示一段时间内的变化。</para>
+            </commentary>
+        </step>
+        <step label="报告的结构如何？" para_ids="5,6,13,14,24,25,35,36,46,47">
+            <commentary>
+                <para>以下是这份报告所采用的结构。</para>
+            </commentary>
+        </step>
+        <step label="怎样谋篇布局？" para_ids="2,3,5,6,7,13,14,15,24,25,26,35,36,37,46,47,48">
+            <commentary>
+                <para>构思报告时，应确定各段的内容并列出要点。</para>
+            </commentary>
+        </step>
+        <step label="介绍趋势" para_ids="2,3,13,14,51">
+            <commentary>
+                <para showme="52">首先概要评论图表显示的各种趋势，以及主要趋势。</para>
+                <para showme="53">提供可支持主要趋势的细节。</para>
+            </commentary>
+        </step>
+        <step label="比较趋势" para_ids="2,3,24,25,54">
+            <commentary>
+                <para showme="55">概要评论。</para>
+                <para showme="56">提供更详细的信息。</para>
+                <para showme="57">将这些趋势与其他开支进行比较。</para>
+            </commentary>
+        </step>
+        <step label="对比趋势" para_ids="2,3,35,36,58">
+            <commentary>
+                <para showme="59">总结各种趋势的主要对比。</para>
+            </commentary>
+        </step>
+        <step label="显示有用语句" para_ids="3,8,16,27,38,49">
+            <commentary>
+                <para showme="9,10,11,17,18,19,20,21,22,28,29,30,31,32,33,39,40,41,42,43,44,50">报告数据时常用的关键词和短语。</para>
+            </commentary>
+        </step>
+    </guided_tour>
+    <practice_rubric>
+        <planning>
+            <checklist>
+                <point>仔细观察所要报告的数据并做笔记。</point>
+                <point help="datagraphs_ask_yourself.xml">问自己有关图表内容的问题。</point>
+                <point>组织内容时要突出主要趋势或特征。</point>
+            </checklist>
+        </planning>
+        <vocab>
+            <checklist>
+                <point>使用简单清楚的语言，但要有学术风格。</point>
+                <point help="datagraphs_general_trends.xml">使用语言描述总趋势。</point>
+                <point help="datagraphs_developments.xml">使用语言描述一段时间内的变化。</point>
+            </checklist>
+        </vocab>
+        <writing>
+            <checklist>
+                <point>描述趋势。</point>
+                <point>比较趋势。</point>
+                <point>对比趋势。</point>
+                <point>总结趋势。</point>
+            </checklist>
+        </writing>
+        <checking>
+            <checklist>
+                <point>介绍数据的主题了吗？</point>
+                <point>找出信息中呈现的主要趋势了吗？</point>
+                <point>对趋势或数字进行了有意义的比较吗？</point>
+                <point>数据报告得准确吗？</point>
+                <point>结论部分有对数据做总结吗？</point>
+                <point>回答问题了吗？</point>
+                <point>检查用词、语法和拼写了吗？</point>
+            </checklist>
+        </checking>
+    </practice_rubric>
+    <paragraphs>
+        <paragraph eid="1">
+            <name eid="2">问题</name>
+            <content eid="3" prompt="在这里键入问题" image="oald8_wtdata.jpg">
+                <para>Summarize the information in the graph by selecting and reporting the main features and make comparisons where relevant.</para>
+            </content>
+        </paragraph>
+        <paragraph eid="4">
+            <name eid="5">引言</name>
+            <desc eid="6">描述数据的主题。</desc>
+            <notes eid="7">
+                <para>Graph: proportion of total expenditure that UK households spent over 50 years on: housing; fuel, light and power; food; clothing and footwear; transport and vehicles. </para>
+            </notes>
+            <content eid="8" prompt="在这里键入引言">
+                <para>The graph <useful type="key" eid="9">shows</useful> what <useful type="key" eid="10">proportion of</useful> their total expenditure households in the UK spent, <useful type="key" eid="11">over</useful> a fifty year period, in five different categories: housing; fuel, light and power; food; clothing and footwear; and transport and vehicles.</para>
+            </content>
+        </paragraph>
+        <paragraph eid="12">
+            <name eid="13">趋势</name>
+            <desc eid="14">概要评论数据所显示的各种趋势，并用相关数据说明主要趋势。</desc>
+            <notes eid="15">
+                <para>Expenditure changed in all categories. Food: biggest change, from 30% of total to 15%.</para>
+            </notes>
+            <content eid="16">
+                <para>Between 1957 and 2007 expenditure in all five categories <useful type="key" eid="17">changed</useful> to some extent, but the most marked change was in the food category. At the beginning of the period the proportion of expenditure on food was <useful type="key" eid="18">more than three times as high as</useful> that in all the other categories, <useful type="key" eid="19">representing more than</useful> thirty per cent of <useful type="key" eid="20">total</useful> household expenditure. However, by 2007 this figure had <useful type="key" eid="21">more than halved to around</useful> fifteen per cent, and was <useful type="key" eid="22">slightly less than</useful> expenditure on both housing and transport.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <content dup="16" eid="51">
+                <para>
+                    <extra_info eid="52">Between 1957 and 2007 expenditure in all five categories changed to some extent, but the most marked change was in the food category.</extra_info>
+                    <extra_info eid="53">At the beginning of the period the proportion of expenditure on food was more than three times as high as that in all the other categories, representing more than thirty per cent of total household expenditure. However, by 2007 this figure had more than halved to around fifteen per cent, and was slightly less than expenditure on both housing and transport.</extra_info>
+                </para>
+            </content>
+        </paragraph>
+        <paragraph eid="23">
+            <name eid="24">比较趋势</name>
+            <desc eid="25">解释其他相似的趋势，提供详细信息，并将这些趋势与其他趋势进行比较。</desc>
+            <tip>提示：段落的数目取决于所要描述的数据多寡。</tip>
+            <notes eid="26">
+                <para>Clothing and footwear (10% - 5%) + fuel, light and power (6% - 3%) also fell. Less spent on these than other categories.</para>
+            </notes>
+            <content eid="27">
+                <para>The two other areas where proportions of expenditure <useful type="key" eid="28">fell</useful> over the period are clothing and footwear, and fuel, light and power. However, the changes here were <useful type="key" eid="29">much less dramatic</useful>. Expenditure on <useful type="key" eid="30">the former dropped steadily</useful> from ten per cent to five per cent, and on <useful type="key" eid="31">the latter</useful> from six per cent to three per cent. For most of the fifty-year period, these categories used up a significantly <useful type="key" eid="32">smaller proportion of</useful> the household budget <useful type="key" eid="33">than</useful> the others.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <content eid="54" dup="27">
+                <para>
+                    <extra_info eid="55">The two other areas where proportions of expenditure fell over the period are clothing and footwear, and fuel, light and power.</extra_info> However, the changes here were much less dramatic. <extra_info eid="56">Expenditure on the former dropped steadily from ten per cent to five per cent, and on the latter from six per cent to three per cent.</extra_info>
+                    <extra_info eid="57">For most of the fifty-year period, these categories used up a significantly smaller proportion of the household budget than the others.</extra_info>
+                </para>
+            </content>
+        </paragraph>
+        <paragraph eid="34">
+            <name eid="35">对比趋势</name>
+            <desc eid="36">详细论述呈现不同状态的趋势，概述各种趋势之间的主要差异。</desc>
+            <tip>提示：段落的数目取决于所要描述的数据多寡。</tip>
+            <notes eid="37">
+                <para>Transport + housing: expenditure approximately doubled: 8% - 16%; 9% - 19%.
+                </para>
+                <para>At the end of the period - most was spent on housing, least on fuel, light and power.</para>
+            </notes>
+            <content eid="38">
+                <para>In two categories, transport and housing, the proportions of expenditure <useful type="key" eid="39">almost doubled</useful>, <useful type="key" eid="40">rising from</useful> eight and nine per cent <useful type="key" eid="41">to</useful> sixteen and nineteen per cent <useful type="key" eid="42">respectively</useful>. Thus, by the end of the period, <useful type="key" eid="43">the highest</useful> proportion of household expenditure went on housing, and <useful type="key" eid="44">the lowest</useful> on fuel, light and power.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <content eid="58" dup="38">
+                <para>In two categories, transport and housing, the proportions of expenditure almost doubled, rising from eight and nine per cent to sixteen and nineteen per cent respectively. <extra_info eid="59">Thus, by the end of the period, the highest proportion of household expenditure went on housing, and the lowest on fuel, light and power.</extra_info></para>
+            </content>
+        </paragraph>
+        <paragraph eid="45">
+            <name eid="46">总结</name>
+            <desc eid="47">概要总结报告。</desc>
+            <notes eid="48">
+                <para>Over 50 years, patterns of spending changed, proportion spent on food changing most.</para>
+            </notes>
+            <content eid="49" prompt="在这里键入总结">
+                <para>In conclusion, <useful type="key" eid="50">the graph shows that</useful> the patterns of spending in UK households changed to some extent over the period 1957 to 2007, the part of the budget spent on food showing the most marked change.</para>
+            </content>
+        </paragraph>
+    </paragraphs>
+</framework>

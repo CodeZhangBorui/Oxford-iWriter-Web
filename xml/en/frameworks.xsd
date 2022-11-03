@@ -1,0 +1,293 @@
+﻿<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="framework">
+		<xs:annotation>
+			<xs:documentation>Edited: 20 October 2009 15:49:23 by turnbuljEdited: 20 October 2009 14:31:26 by turnbulj</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element type="xs:string" name="framework_title"/>
+				<xs:element name="framework_intro">
+					<xs:complexType>
+						<xs:sequence>
+													<xs:element name="para"  maxOccurs="unbounded" minOccurs="0">
+														<xs:complexType mixed="true">
+															<xs:sequence>
+																<xs:element name="useful" maxOccurs="unbounded" minOccurs="0">
+																	<xs:complexType>
+																		<xs:simpleContent>
+																			<xs:extension base="xs:string">
+																				<xs:attribute type="xs:string" name="type" use="optional"/>
+																				<xs:attribute type="xs:string" name="eid" use="optional"/>
+																			</xs:extension>
+																		</xs:simpleContent>
+																	</xs:complexType>
+																</xs:element>
+
+																<xs:element name="extra_info" maxOccurs="unbounded" minOccurs="0">
+																	<xs:complexType>
+																		<xs:simpleContent>
+																			<xs:extension base="xs:string">
+																				<xs:attribute type="xs:string" name="eid" use="optional"/>
+																			</xs:extension>
+																		</xs:simpleContent>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute type="xs:string" name="showme" use="optional"/>
+														</xs:complexType>
+													</xs:element>
+
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="guided_tour" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="step" maxOccurs="unbounded" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="commentary">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="para" maxOccurs="unbounded" minOccurs="0">
+														<xs:complexType mixed="true">
+															<xs:sequence>
+																<xs:element name="useful" maxOccurs="unbounded" minOccurs="0">
+																	<xs:complexType>
+																		<xs:simpleContent>
+																			<xs:extension base="xs:string">
+																				<xs:attribute type="xs:string" name="type" use="optional"/>
+																				<xs:attribute type="xs:string" name="eid" use="optional"/>
+																			</xs:extension>
+																		</xs:simpleContent>
+																	</xs:complexType>
+																</xs:element>
+
+																<xs:element name="extra_info" maxOccurs="unbounded" minOccurs="0">
+																	<xs:complexType>
+																		<xs:simpleContent>
+																			<xs:extension base="xs:string">
+																				<xs:attribute type="xs:string" name="eid" use="optional"/>
+																			</xs:extension>
+																		</xs:simpleContent>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute type="xs:string" name="showme" use="optional"/>			
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute type="xs:string" name="label" use="optional"/>
+									<xs:attribute type="xs:string" name="para_ids" use="optional"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="practice_rubric" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="planning">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="checklist">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="point" maxOccurs="unbounded" minOccurs="0">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:attribute type="xs:string" name="help" use="optional"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="vocab">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="checklist">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="point" maxOccurs="unbounded" minOccurs="0">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:attribute type="xs:string" name="help" use="optional"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="writing">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="checklist" maxOccurs="unbounded" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="point" maxOccurs="unbounded" minOccurs="0">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:attribute type="xs:string" name="help" use="optional"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="checking">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="checklist">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element type="xs:string" name="point" maxOccurs="unbounded" minOccurs="0"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="paragraphs">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="paragraph" maxOccurs="unbounded" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="name" minOccurs="0">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:string" name="eid" use="optional"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="desc" minOccurs="0">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:string" name="eid" use="optional"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="tip" minOccurs="0">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:string" name="eid" use="optional"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>					
+										<xs:element name="notes"  maxOccurs="unbounded" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="para"  maxOccurs="unbounded" minOccurs="0">
+														<xs:complexType mixed="true">
+															<xs:sequence>
+																<xs:element name="useful" maxOccurs="unbounded" minOccurs="0">
+																	<xs:complexType>
+																		<xs:simpleContent>
+																			<xs:extension base="xs:string">
+																				<xs:attribute type="xs:string" name="type" use="optional"/>
+																				<xs:attribute type="xs:string" name="eid" use="optional"/>
+																			</xs:extension>
+																		</xs:simpleContent>
+																	</xs:complexType>
+																</xs:element>
+
+																<xs:element name="extra_info" maxOccurs="unbounded" minOccurs="0">
+																	<xs:complexType>
+																		<xs:simpleContent>
+																			<xs:extension base="xs:string">
+																				<xs:attribute type="xs:string" name="eid" use="optional"/>
+																			</xs:extension>
+																		</xs:simpleContent>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute type="xs:string" name="showme" use="optional"/>	
+														</xs:complexType>
+													</xs:element>
+
+												</xs:sequence>
+												<xs:attribute type="xs:string" name="eid" use="optional"/>											
+											</xs:complexType>
+										</xs:element>
+
+										<xs:element name="content"  minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="para" maxOccurs="unbounded" minOccurs="0">
+														<xs:complexType mixed="true">
+															<xs:sequence>
+																<xs:element name="useful" maxOccurs="unbounded" minOccurs="0">
+																	<xs:complexType>
+																		<xs:simpleContent>
+																			<xs:extension base="xs:string">
+																				<xs:attribute type="xs:string" name="type" use="optional"/>
+																				<xs:attribute type="xs:string" name="eid" use="optional"/>
+
+																			</xs:extension>
+																		</xs:simpleContent>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="extra_info" maxOccurs="unbounded" minOccurs="0">
+																	<xs:complexType>
+																		<xs:simpleContent>
+																			<xs:extension base="xs:string">
+																				<xs:attribute type="xs:string" name="eid" use="optional"/>
+																			</xs:extension>
+																		</xs:simpleContent>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute type="xs:string" name="showme" use="optional"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute type="xs:string" name="prompt" use="optional"/>
+												<xs:attribute type="xs:string" name="eid" use="optional"/>
+												<xs:attribute type="xs:string" name="dup" use="optional"/>
+												<xs:attribute type="xs:string" name="align" use="optional"/>
+												<xs:attribute type="xs:string" name="image" use="optional"/>
+												<xs:attribute type="xs:string" name="showme" use="optional"/>
+												<xs:attribute type="xs:string" name="nocount" use="optional"/>														
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute type="xs:string" name="eid" use="optional"/>
+									<xs:attribute type="xs:string" name="align" use="optional"/>
+									<xs:attribute type="xs:string" name="dup" use="optional"/>									
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

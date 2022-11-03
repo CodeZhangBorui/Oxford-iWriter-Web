@@ -1,0 +1,27 @@
+<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='使用合适的语言来写附信'>
+	
+<p><span color='#0000FF'>给出写信的原因</span></p>
+<p><span fontStyle="italic">I am writing to apply for the post/position of...</span></p>
+<p><span fontStyle="italic">I am (especially) interested in...</span></p>
+<p><span fontStyle="italic">I hope to...</span></p>
+<p><span color='#0000FF'>讲述个人资历</span></p>
+<p><span fontStyle="italic">I have just finished...</span></p>
+<p><span fontStyle="italic">Since leaving.../graduating from..., I have...</span></p><p/>
+<p><span color='#0000FF'>表明你能为这份工作带来什么</span></p>
+<p><span fontStyle="italic">As you will see from my CV...</span></p>
+<p><span fontStyle="italic">I have some/considerable experience in...</span></p>
+<p><span fontStyle="italic">I deal/have dealt with...</span></p>
+<p><span fontStyle="italic">I can offer (skills in...)...</span></p>
+<p><span fontStyle="italic">I am responsible for...</span></p><p/>
+<p><span color='#0000FF'>解释弱点</span></p>
+<p><span fontStyle="italic">Although I lack (experience in...)..., I... </span></p>
+<p><span color='#0000FF'>参考附件</span></p>
+<p><span fontStyle="italic">I enclose a copy of...</span></p>
+<p><span fontStyle="italic">I attach a copy of...</span></p>
+<p><span fontStyle="italic">As you will see from (my CV)</span></p>
+<p><span color='#0000FF'>结束语</span></p>
+<p><span fontStyle="italic">I look forward to hearing from you.</span></p>
+
+
+
+</TextFlow>

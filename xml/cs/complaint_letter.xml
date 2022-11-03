@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<!DOCTYPE framework SYSTEM "Q:\rules\ald8_iwriter.dtd">
+<framework>
+    <framework_title>投诉信</framework_title>
+    <framework_intro>
+        <para>写投诉信时，建议采用以下结构。将信的要点和内容填写到相应位置。</para>
+
+    </framework_intro>
+    <guided_tour>
+        <step label="正式信函有什么特点？">
+            <commentary>
+                <para>写正式信函时需要记住的重点之一是格式，它有其惯用的格式；二是语言，用语必须是正式或半正式的，而且要有礼貌，即使是表达不满亦应如此。信的内容应结构清晰，符合逻辑。</para>
+            </commentary>
+        </step>
+        <step label="文章的结构如何？" para_ids="2,6,10,58,14,18,22,23,28,29,35,36,42,43,48,49,54,55">
+            <commentary>
+                <para>以下是这封信所采用的结构。</para>
+            </commentary>
+        </step>
+        <step label="文章的格式如何？" para_ids="2,4,6,8,10,12">
+            <commentary>
+                <para>右上角写上写信人的地址，不写姓名。</para>
+                <para>左边写收信人的姓名、职衔和地址。</para>
+                <para>日期放在左边或右边地址的下方均可，或放在左边地址的上方。也可以用 August 1, 2014、1/8/14（英式英语），或 8/1/14（美式英语）。</para>
+            </commentary>
+        </step>
+        <step label="怎样开头和结尾？" para_ids="58,14,16,54,55,57">
+            <commentary>
+                <para>写信人不知道收信人姓名，所以开头用 Dear Sir or Madam，结尾用 Yours faithfully。</para>
+            </commentary>
+        </step>
+        <step label="怎样谋篇布局？" para_ids="22,23,24,28,29,30,35,36,37,42,43,44,48,49,50">
+            <commentary>
+                <para>写信前先列出各段的要点。</para>
+            </commentary>
+        </step>
+        <step label="显示有用语句" para_ids="25,31,38,45,51">
+            <commentary>
+                <para showme="26,32,33,39,40,46,52">使用投诉信的关键词或短语。</para>
+            </commentary>
+        </step>
+    </guided_tour>
+    <practice_rubric>
+        <planning>
+            <checklist>
+                <point>按照本结构组织自己的投诉信的要点。</point>
+            </checklist>
+        </planning>
+        <vocab>
+            <checklist>
+                <point help="argument_formal.xml">使用正式的语言。</point>
+                <point help="let_complaint_appropriate.xml">使用恰当的表达方式。</point>
+            </checklist>
+        </vocab>
+        <writing>
+            <checklist>
+                <point help="covering_letter_lay_your.xml">布局要正确。</point>
+                <point help="coverl_greeting_and_close.xml">确保开头称呼和结尾相符。</point>
+            </checklist>
+        </writing>
+        <checking>
+            <checklist>
+                <point>写信人地址（而不是姓名）的位置正确吗？</point>
+                <point>收信人姓名和地址的位置正确吗？</point>
+                <point>日期的位置正确吗？</point>
+                <point>给出参照信息了吗？</point>
+                <point>第一段说明写信的原因了吗？</point>
+                <point>说清楚自己希望对方采取什么行动了吗？（如会面、某些信息、补偿等）</point>
+                <point>开头称呼（Dear…）和结尾（Yours…）一致吗？</point>
+                <point>信读起来很正式吗？</point>
+                <point>措辞有礼得当吗？</point>
+                <point>检查用词、语法和拼写了吗？</point>
+            </checklist>
+        </checking>
+    </practice_rubric>
+    <paragraphs>
+        <paragraph eid="1" align="right">
+            <name eid="2" align="right">写信人地址</name>
+            <tip eid="3" align="right">右上角写上写信人的地址，不写姓名。</tip>
+            <content prompt="在这里键入写信人地址" eid="4" align="right">
+                <para>6 Fore Street</para>
+                <para>Kensington</para>
+                <para>London W8 9NW</para>
+            </content>
+        </paragraph>
+        <paragraph eid="5">
+            <name eid="6">收信人姓名／头衔和地址</name>
+            <tip eid="7">提示：左边写收信人的姓名、职衔和地址。如果用美国格式写信，则用美式拼写和标点符号，如 Mrs.、Dr. 等。</tip>
+            <content prompt="在这里键入姓名和地址" eid="8">
+                <para>Customer Services Manager</para>
+                <para>FlyHigh Airways</para>
+                <para>PO Box 589</para>
+                <para>London W3 5NJ</para>
+            </content>
+        </paragraph>
+        <paragraph eid="9">
+            <name eid="10">日期</name>
+            <tip eid="11">提示：日期放在左边或右边地址的下方均可，或放在左边地址的上方。可以写成 August 1, 2014、1/8/14（均为英式英语），或 8/1/14（美式英语）。</tip>
+            <content prompt="在这里键入今天的日期" eid="12">
+                <para>1 August 2014</para>
+            </content>
+        </paragraph>
+        <paragraph eid="13">
+            <name eid="58">称呼</name>
+            <desc eid="14">Dear…</desc>
+            <tip eid="15">提示：如果不知道收信人姓名，用 Dear Sir or Madam。如果知道姓名，使用以下格式：Dear Ms Klein、Dear Mr Smith。如果不知道性别，可以用 Dear Chris White，但不要同时使用头衔和名字。如果按美国格式写信而且不知道收信人姓名，可以用 To whom it may concern。</tip>
+            <content prompt="鍵入 Dear…" eid="16">
+                <para>Dear Sir or Madam</para>
+            </content>
+        </paragraph>
+        <paragraph eid="17">
+            <name eid="18">参照信息</name>
+            <tip eid="19">提示：可以用标题，如 Poor service levels（服务质量差）。</tip>
+            <content prompt="在这里键入参照信息" eid="20">
+                <para>Booking reference: Porter POR 1359AZ</para>
+            </content>
+        </paragraph>
+        <paragraph eid="21">
+            <name eid="22">第 1 段</name>
+            <desc eid="23">清楚说明为什么写信。</desc>
+            <notes eid="24">
+                <para>We were passengers on flight LZ238 from London to Orlando, USA -  July 23rd 2014. Want to complain about the service - several aspects.</para>
+            </notes>
+            <content eid="25">
+                <para>My wife and I and our two children, aged 2 and 4, were passengers on flight LZ238 from London to Orlando, USA on July 23rd 2014. <useful type="key" eid="26">I am writing to complain</useful> about a number of aspects of the service we received.</para>
+            </content>
+        </paragraph>
+        <paragraph eid="27">
+            <name eid="28">第 2 段</name>
+            <desc eid="29">说明问题和自己所受的影响。</desc>
+            <notes eid="30">
+                <para>When plane delayed, staff at the information desk were unhelpful. We were not given a voucher for a drink or meal - delay would be at least seven hours. So had to spend a large amount of money in the restaurant.</para>
+            </notes>
+            <content eid="31">
+                <para>
+                    <useful type="key" eid="32">Firstly</useful>, when the flight was delayed, the staff at the airline's information desk were very unhelpful. We were not even given a voucher for a drink or meal, when it was clear the delay would be at least seven hours. <useful type="key" eid="33">This meant that </useful>we had to spend a considerable amount of money in the restaurant.</para>
+            </content>
+        </paragraph>
+        <paragraph eid="34">
+            <name eid="35">第 3 段</name>
+            <desc eid="36">说明其他问题和后果。</desc>
+            <notes eid="37">
+                <para>When able to board, families were not allowed to board first - but  we had paid for this. So we were not able to sit together - children became distressed.</para>
+            </notes>
+            <content eid="38">
+                <para>
+                    <useful type="key" eid="39">Then</useful>, when we were finally able to board, families were not allowed to board first, although we had paid for this. <useful type="key" eid="40">As a result </useful>we were not able to sit together, making our children, already very tired, extremely distressed.</para>
+            </content>
+        </paragraph>
+        <paragraph eid="41">
+            <name eid="42">第 4 段</name>
+            <desc eid="43">清楚提出自己希望公司采取的行动。</desc>
+            <notes eid="44">
+                <para>Legal requirement for airline operators to provide refreshments if there is a delay. I expect  compensation for this and no priority boarding although paid for.</para>
+            </notes>
+            <content eid="45">
+                <para>It is a legal requirement for airline operators to provide suitable refreshments in the event of a delay. <useful type="key" eid="46">I would therefore expect some compensation</useful> for your failure both to comply with this regulation and to provide us with the priority boarding for which we had paid.</para>
+            </content>
+        </paragraph>
+        <paragraph eid="47">
+            <name eid="48">结束语</name>
+            <desc eid="49">概要评论。表明你希望尽快得到答复。</desc>
+            <notes eid="50">
+                <para>Enclose boarding passes and look forward to hearing from you shortly.</para>
+            </notes>
+            <content eid="51" prompt="在这里键入结束语">
+                <para>I enclose our boarding passes and<useful type="key" eid="52">look forward to hearing from you shortly.</useful></para>
+            </content>
+        </paragraph>
+        <paragraph eid="53">
+            <name eid="54">结尾</name>
+            <desc eid="55">签名并在下方打印姓名。提供任何其他联系方式，如电邮。</desc>
+            <tip eid="56">提示：如果开头使用 Dear + 名字，结尾要用 Yours sincerely。如果开头使用 Dear Sir or Madam，结尾则用 Yours faithfully。美国格式的结尾用 Sincerely、Sincerely yours（如果开头用了Dear + 名字），或 Yours truly。</tip>
+            <content prompt="键入 Yours sincerely、Yours faithfully 等和写信人的姓名" eid="57">
+                <para>Yours faithfully</para>
+                <para>S R Porter (Dr)</para>
+            </content>
+        </paragraph>
+    </paragraphs>
+</framework>

@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<!DOCTYPE framework SYSTEM "ald8_iwriter.dtd">
+<framework>
+    <framework_title>口头报告</framework_title>
+    <framework_intro>
+        <para>做口头报告时，建议采用以下结构。将要点和内容填写到相应位置。</para>
+    
+    </framework_intro>
+    <guided_tour>
+        <step label="怎样组织口头报告？">
+            <commentary>
+                <para>可采用各种各样的方式组织口头报告的思路或论点。采用何种方式一方面取决于演讲的长度，但最主要是看主题。</para>
+                <para>准备口头报告在很多方面与写文章类似——演讲须有条理、结构清晰，有开头、中间部分和结尾。</para>
+            </commentary>
+        </step>
+        <step label="报告的组织如何？" para_ids="1,2,4,5,7,8,14,15,17,18">
+            <commentary>
+                <para>以下是这份报告所采用的结构。</para>
+            </commentary>
+        </step>
+        <step label="引言、概述和总结" para_ids="3,4,5,22,7,8,9,17,18,19">
+            <commentary>
+                <para>在这篇范例中，报告者将引言、概述和总结完整写出来。</para>
+            </commentary>
+        </step>
+        <step label="口头报告的主体部分" para_ids="3,14,15,16">
+            <commentary>
+                <para>发言者简单列出报告主体部分的要点。</para>
+            </commentary>
+        </step>
+        <step label="显示有用语句" para_ids="3,22,9,16,19">
+            <commentary>
+                <para showme="6,10,11,12,13,20,21">引导听众听报告的关键词和短语。</para>
+            </commentary>
+        </step>
+    </guided_tour>
+    <practice_rubric>
+        <planning>
+            <checklist>
+                <point>确保准备充分。</point>
+                <point>针对报告主题查阅相关资料并做笔记。</point>
+                <point>考虑报告的目的：是向听众提供信息，娱乐听众，还是说服他们？</point>
+                <point>考虑听众，想想他们对报告主题了解多少。</point>
+                <point>注意，最好按照笔记演讲，不要从头到尾读稿子。</point>
+                <point help="presentations_prep_for_quest.xml">准备应对提问。</point>
+            </checklist>
+        </planning>
+        <vocab>
+            <checklist>
+                <point help="present_approp_begin_end.xml">开头和结尾用词得当。</point>
+                <point help="present_approp_structure.xml">用适当的词语组织口头报告。</point>
+            </checklist>
+        </vocab>
+        <writing>
+            <checklist>
+                <point help="presentations_make_notes.xml">在卡片上用英语做笔记。</point>
+                <point>将任何自己认为需要写出的部分写出来，如引言和结论。</point>
+                <point>写出并突出显示引导听众的关键词和短语。</point>
+                <point help="presentations_prep_vis_aid.xml">准备视觉资料。</point>
+                <point help="pres_practise_your_talk.xml">做口头报告前练习。</point>
+            </checklist>
+        </writing>
+        <checking>
+            <checklist>
+                <point>口头报告的结构清晰吗？</point>
+                <point>介绍主题（概述）、讲述具体内容（主体部分）并做总结（结论）了吗？</point>
+                <point>开头讲了个笑话或奇闻趣事吗？</point>
+                <point>笔记准备得好吗？</point>
+                <point>视觉资料清晰、醒目、简洁吗？</point>
+                <point>练习充分吗？</point>
+                <point>有把握在限定时间内讲完吗？</point>
+                <point>对于不熟悉的单词，查过读音了吗？</point>
+                <point>检查用词和语法了吗？</point>
+            </checklist>
+        </checking>
+    </practice_rubric>
+    <paragraphs>
+        <paragraph>
+            <name eid="1">题目</name>
+            <desc eid="2">报告题目</desc>
+            <content eid="3" prompt="在这里键入题目">
+                <para>The benefits of learning a foreign language.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="4">致辞和引言</name>
+            <desc eid="5">简要介绍话题。</desc>
+            <notes>
+                <?xm-replace_text {notes}?>
+            </notes>
+            <content eid="22" prompt="在这里键入引言">
+                <para>Good morning.</para>
+                <para>
+                    <useful type="key" eid="6">My talk today examines</useful> the benefits of learning a foreign language.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="7">概述</name>
+            <desc eid="8">概述口头报告的框架，并简述将如何探讨这一主题。</desc>
+            <notes>
+                <?xm-replace_text {notes}?>
+            </notes>
+            <content eid="9" prompt="在这里键入概述">
+                <para>
+                    <useful type="key" eid="10">I intend to outline</useful> three important benefits of learning another language:</para>
+                <para>
+                    <useful type="key" eid="11">The first benefit I shall describe is</useful> practical - speaking another language means we can communicate with other nationalities.</para>
+                <para>
+                    <useful type="key" eid="12">A further benefit is</useful> increased cultural understanding - when people can speak the same language, this breaks down barriers and bridges the gap between cultures.</para>
+                <para>
+                    <useful type="key" eid="13">The final benefit that I shall describe is</useful> improved cognitive skills. Research shows that learning another language increases our brain power</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="14">口头报告的主体部分</name>
+            <desc eid="15">这部分最长。写的时候结构要清晰、有条理。</desc>
+            <notes>
+                <?xm-replace_text {notes}?>
+            </notes>
+            <content eid="16" prompt="在这里键入报告的大纲">
+                <para>Elaborate on the 3 benefits mentioned in the Overview.</para>
+                <para>1. Practical uses for:</para>
+                <para>Travel&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;.</para>
+                <para>Work&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;.</para>
+                <para>Study&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;.</para>
+                <para>The Internet&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;.</para>
+                <para>2. Increased cultural understanding</para>
+                <para>3. Increased brain power</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="17">结论</name>
+            <desc eid="18">总结要点。为以后的工作提出建议。邀请大家提问。</desc>
+            <notes>
+                <?xm-replace_text {notes}?>
+            </notes>
+            <content eid="19" prompt="在这里键入结论">
+                <para>
+                    <useful type="key" eid="20">In conclusion</useful>, I believe it is clear that there are huge benefits to be gained from learning a foreign language. I would even go so far as to say that it should be compulsory for all school children to learn at least one language for several years. The benefits that it will bring to them and society in general are too great to be ignored. I have never regretted the work I have put in to learning English.</para>
+                <para>
+                    <useful type="key" eid="21">If anyone has any questions I would be very pleased to try to answer them.</useful>
+                </para>
+            </content>
+        </paragraph>
+    </paragraphs>
+</framework>

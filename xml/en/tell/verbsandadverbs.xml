@@ -1,0 +1,19 @@
+﻿<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='Verbs and adverbs'>
+
+<p><span fontWeight='bold' color='#0000FF'>Verbs</span></p>
+<p><span color='#0000FF'>Use these verbs to show you are very sure about what you are saying:</span></p>
+<p><span fontWeight='bold'>have to, must, need to, should, shall, will</span></p>
+<p><span fontStyle="italic">Doing this </span><span fontWeight='bold' fontStyle="italic">will</span> <span fontStyle="italic">improve the situation.</span></p> 
+<p><span color='#0000FF'>Use these verbs to say something that is possible or likely but not completely certain:</span></p>
+<p><span fontWeight='bold'>may, might, can, could, ought to</span></p>
+<p><span fontStyle="italic">A bully </span><span fontWeight='bold' fontStyle="italic">might</span> <span fontStyle="italic">feel lonely.</span></p> 
+<p><span fontWeight='bold' color='#0000FF'>Adverbs</span></p>
+<p><span color='#0000FF'>These adverbs show your opinion strongly:</span></p>
+<p><span fontWeight='bold'>clearly, obviously, in fact, of course, certainly</span></p>
+<p><span fontStyle="italic">Doing this will </span><span fontWeight='bold' fontStyle="italic">certainly</span><span fontStyle="italic"> improve the situation.</span></p>
+<p><span color='#0000FF'>Use these adverbs to show that something usually happens, but not always.</span></p>
+<p><span fontWeight='bold'>often, frequently, typically, normally, usually, generally</span></p>
+<p><span fontStyle="italic">Bullies </span><span fontWeight='bold' fontStyle="italic">usually</span> <span fontStyle="italic">attack someone who they think is weak.</span></p> 
+<p><span color='#0000FF'>See also the Writing Tip at </span><span fontWeight='bold'>sudden</span>.</p> 
+
+</TextFlow>

@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE framework SYSTEM "Q:\rules\ald8_iwriter.dtd">
+<framework>
+	<framework_title>附信</framework_title>
+	<framework_intro>
+		<para>写附信时，建议采用以下结构。将信的要点和内容填写到相应位置。</para>
+	</framework_intro>
+	<guided_tour>
+		<step label="什么是附信？">
+			<commentary>
+				<para>简历或申请表须附上附信。附信通常是一页长。有些国家的附信为手写，但在英国和北美，除非另有规定，否则一般要打印。好的附信使用正式语言，提出一些主要理由说明为什么自己的申请应受到重视。当一份工作的申请人很多时，雇主可能根据附信的说服力选择要看的简历。</para>
+			</commentary>
+		</step>
+		<step label="文章的结构如何？" para_ids="2,6,9,13,18,19,23,26,27,34,35,45,46,55,56,62,63">
+			<commentary>
+				<para>以下是这封信所采用的结构。</para>
+			</commentary>
+		</step>
+		<step label="文章的格式如何？" para_ids="2,4,6,7,9,11,13,16">
+			<commentary>
+				<para>右上角写上写信人的地址，不写姓名。</para>
+				<para>日期放在左边或右边地址的下方均可，或放在左边地址的上方。也可以用 January 31, 2015、31/1/15（英式英语），或 1/31/15（美式英语）。</para>
+				<para>左边写收信人的姓名、职衔和地址。</para>
+			</commentary>
+		</step>
+		<step label="怎样开头和结尾？" para_ids="18,19,21,62,63,65">
+			<commentary>
+				<para>写信人知道收信人的姓名，所以开头用 Dear Mrs Hunter，结尾用 Yours sincerely。</para>
+			</commentary>
+		</step>
+		<step label="显示有用语句" para_ids="30,38,49,58">
+			<commentary>
+				<para showme="31,32,39,40,41,42,43,50,51,52,53,59,60">使用附信的关键词或短语。</para>
+			</commentary>
+		</step>
+	</guided_tour>
+	<practice_rubric>
+		<planning>
+			<checklist>
+				<point>按照本结构组织自己的附信的要点。</point>
+				<point>确保信的内容符合所要申请的工作。</point>
+			</checklist>
+		</planning>
+		<vocab>
+			<checklist>
+				<point help="argument_formal.xml">使用正式的语言。</point>
+				<point help="cover_letter_appropriate.xml">使用恰当的表达方式。</point>
+			</checklist>
+		</vocab>
+		<writing>
+			<checklist>
+				<point help="covering_letter_lay_your.xml">布局要正确。</point>
+				<point>说明自己能为这份工作带来什么。</point>
+				<point help="coverl_greeting_and_close.xml">确保开头称呼和结尾相符。</point>
+			</checklist>
+		</writing>
+		<checking>
+			<checklist>
+				<point>给出参照信息了吗？</point>
+				<point>第一段说清楚写信的原因了吗？</point>
+				<point>说明自己能为这份工作带来什么了吗？</point>
+				<point>开头称呼和结尾相符吗？</point>
+				<point>信读起来很正式吗？</point>
+				<point>措辞礼貌得当吗？</point>
+				<point>检查用词、语法和拼写了吗？</point>
+			</checklist>
+		</checking>
+	</practice_rubric>
+	<paragraphs>
+		<paragraph eid="1" align="right">
+			<name eid="2">写信人地址</name>
+			<tip eid="3">提示：将写信人的地址写在右上角，不写姓名。</tip>
+			<content eid="4" prompt="在这里键入写信人地址" align="right">
+				<para>19 Strangelands Road</para>
+				<para>London</para>
+				<para>NE23 6ZB</para>
+			</content>
+		</paragraph>
+		<paragraph eid="5" align="right">
+			<name eid="6">本人的电话号码</name>
+			<content eid="7" prompt="在这里键入本人的电话号码" align="right">
+				<para>Tel: 0207 337 34589</para>
+			</content>
+		</paragraph>
+		<paragraph eid="8" align="right">
+			<name eid="9">日期</name>
+			<tip eid="10">提示：日期放在左边或右边地址的下方均可，或放在左边地址的上方。也可以用 January 31, 2015、31/1/15（英式英语），或 1/31/15（美式英语）。</tip>
+			<content eid="11" prompt="在这里键入今天的日期" align="right">
+				<para>31 January 2015</para>
+			</content>
+		</paragraph>
+		<paragraph eid="12">
+			<name eid="13">雇主的名字和地址</name>
+			<tip eid="15">提示：左边写收信人的姓名、职衔和地址。如果用美国格式写信，则用美式拼写和标点符号，如 Mrs.、Dr. 等。</tip>
+			<content eid="16" prompt="在这里键入雇主的名字和地址">
+				<para>Mrs F. Hunter</para>
+				<para>Human Resources Manager</para>
+				<para>Timson Office Supplies</para>
+				<para>Unit 5 Males Industrial Estate</para>
+				<para>Cambridge</para>
+				<para>CB7 9HD</para>
+			</content>
+		</paragraph>
+		<paragraph eid="17">
+			<name eid="18">称呼</name>
+			<desc eid="19">Dear…</desc>
+			<tip eid="20">提示：如果不知道收信人姓名，用 Dear Sir or Madam。如果知道姓名，使用以下格式：Dear Ms Klein，Dear Mr Smith。如果不知道性别，可以用 Dear Chris White，但不要同时使用头衔和名字。如果按美国格式写信而且不知道收信人姓名，可以用 To whom it may concern。</tip>
+			<content eid="21" prompt="键入 Dear…">
+				<para>Dear Mrs Hunter</para>
+			</content>
+		</paragraph>
+		<paragraph eid="22">
+			<name eid="23">参照信息：工作的名称</name>
+			<content eid="24" prompt="在这里键入参照信息">
+				<para>Senior Accounts Clerk</para>
+			</content>
+		</paragraph>
+		<paragraph eid="25">
+			<name eid="26">第 1 段</name>
+			<desc eid="27">说明写信目的。说明要申请什么职位以及如何／从何处知悉。</desc>
+			<tip eid="28">提示：在附信中使用 post、position 或 vacancy，不用 job。避免使用缩略形式，如 I'm。</tip>
+			<notes eid="29"/>
+			<content eid="30">
+				<para>
+					<useful type="key" eid="31">I am writing to apply for the post of</useful> senior accounts clerk <useful
+						type="key" eid="32">advertised in</useful> last Friday's edition of the Cambridge Evening News.</para>
+			</content>
+		</paragraph>
+		<paragraph eid="33">
+			<name eid="34">第 2 段</name>
+			<desc eid="35">概述目前的工作和职责，如果是应届毕业生则略述学历。</desc>
+			<tip eid="36">提示：将此信息与所申请的工作联系起来。</tip>
+			<notes eid="37"/>
+			<content eid="38">
+				<para>
+					<useful type="key" eid="39">As you will see from</useful> my enclosed CV <useful
+						type="key" eid="40">I am currently</useful> an accounts clerk in a medium-sized printing firm. <useful
+						type="key" eid="41">In addition to</useful> my normal bookkeeping duties, <useful
+						type="key" eid="42">I am responsible for </useful>invoicing and chasing up late payments. <useful
+						type="key" eid="43">I also deal with</useful> credit checks on potential customers.</para>
+			</content>
+		</paragraph>
+		<paragraph eid="44">
+			<name eid="45">第 3 段</name>
+			<desc eid="46">说明自己为什么需要这份工作以及能为雇主带来什么贡献。</desc>
+			<tip eid="47">提示：说明自己能为雇主做什么，这很重要。</tip>
+			<notes eid="48"/>
+			<content eid="49">
+				<para>
+					<useful type="key" eid="50">I am committed to pursuing a career in</useful> management accounting and am currently studying for further professional qualifications by distance learning. <useful
+						type="key" eid="51">I am particularly interested in</useful> your post as it would enable me to <useful
+						type="key" eid="52">gain experience of</useful> working in a larger company with the opportunities for professional training and development that this brings. In addition to my skills and experience as an accounts clerk, <useful
+						type="key" eid="53">I would bring to the job a proven ability to</useful> deal successfully and tactfully with customers and clients.</para>
+			</content>
+		</paragraph>
+		<paragraph eid="54">
+			<name eid="55">第 4 段</name>
+			<desc eid="56">给出其他相关信息和可参加面试的时间。</desc>
+			<notes eid="57"/>
+			<content eid="58">
+				<para>
+					<useful type="key" eid="59">I am available for interview</useful> for the next three weeks, but will be away for two weeks from 14 February. <useful
+						type="key" eid="60">I can supply details of</useful>  referees and any other information you may require.</para>
+			</content>
+		</paragraph>
+		<paragraph eid="61">
+			<name eid="62">结尾</name>
+			<desc eid="63">签名并在下方打印全名。enc. 或 encl. 表示有附件。</desc>
+			<tip eid="64">提示：如果开头使用 Dear + 名字，结尾要用 Yours sincerely。如果开头使用 Dear Sir or Madam，结尾则用 Yours faithfully。美国格式的结尾用 Sincerely、Sincerely yours（如果开头用了 Dear + 名字），或 Yours truly。</tip>
+			<content prompt="键入 Yours sincerely、Yours faithfully 等和写信人的姓名"
+				eid="65">
+				<para>
+					<useful type="key" eid="66">I look forward to hearing from you.</useful>
+				</para>
+				<para>Yours sincerely</para>
+				<para>Dilip Patel</para>
+				<para>Enc. CV</para>
+			</content>
+		</paragraph>
+	</paragraphs>
+</framework>

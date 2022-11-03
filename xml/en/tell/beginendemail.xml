@@ -1,0 +1,12 @@
+﻿<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='Think about the beginning and ending of the email'>
+
+<p><span fontWeight='bold'>Informal opening</span></p>
+<p><span fontStyle="italic">Dear</span> + first name, <span fontStyle="italic">Hi</span> + first name, <span fontStyle="italic">Hello</span> + first name.</p><p></p>
+<p><span fontWeight='bold'>Informal closing</span></p>
+<p><span fontStyle="italic">Best wishes, All the best</span> (friends and acquaintances)</p>
+<p><span fontStyle="italic">Love, Take care, Speak to you soon</span> (close friends) </p>
+
+	
+
+
+</TextFlow>

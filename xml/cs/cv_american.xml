@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<!DOCTYPE framework SYSTEM "ald8_iwriter.dtd">
+<framework>
+	<framework_title>美式简历</framework_title>
+	<framework_intro>
+		<para>初次申请工作时，建议采用以下结构写简历。将简历内容填写到相应位置。</para>
+	</framework_intro>
+	<guided_tour>
+		<step label="简历的目的是什么？">
+			<commentary>
+				<para>一份写得好、制作得体、恰如其分的简历（英式英语称 CV/curriculum vitae，美式英语称 résumé）是求职者通向面试阶段至关重要的一环。初次申请工作时，可参照本范例写简历。</para>
+				<para>写简历时，最好问一下老师或导师是否有特别规定。</para>
+				<para>另参见附信。</para>
+			</commentary>
+		</step>
+		<step label="简历的结构如何？" para_ids="1,3,5,8,11,14,17,19">
+			<commentary>
+				<para>以下是本简历所采用的结构。</para>
+			</commentary>
+		</step>
+		<step label="个人信息" para_ids="1,2">
+			<commentary>
+				<para>提供大学住址或当前临时住址（如有），以及永久住址。</para>
+				<para>不必提及自己的年龄、性别、国籍、种族、宗教或婚姻状况。如非招聘的公司要求，不要寄照片。</para>
+			</commentary>
+		</step>
+		<step label="目标" para_ids="3,4">
+			<commentary>
+				<para>概述自己的目标并按特定职位写简历。列出一个现实的短期目标和／或目前能够胜任的工作。</para>
+			</commentary>
+		</step>
+		<step label="学历" para_ids="5,7">
+			<commentary>
+				<para>这部分按倒序排列，不要列出小学。</para>
+				<para>尽量提供与美国对应的学历。</para>
+			</commentary>
+		</step>
+		<step label="工作经历" para_ids="8,10">
+			<commentary>
+				<para>这部分也按倒序排列，首先列出最近的经历。这是一份刚毕业大学生的简历，因此包括了假期和兼职工作。</para>
+			</commentary>
+		</step>
+		<step label="技能" para_ids="14,16">
+			<commentary>
+				<para>这里列出申请人的实践能力。这部分也包括任何与之相关的正式学历。</para>
+			</commentary>
+		</step>
+		<step label="兴趣" para_ids="17,18">
+			<commentary>
+				<para>这部分要简短。一般包括体育运动、有创意的活动和社区活动之类的事情，但不包括阅读或旅行之类过于笼统的主题。</para>
+			</commentary>
+		</step>
+	</guided_tour>
+	<practice_rubric>
+		<planning>
+			<checklist>
+				<point>将简历所需信息归总起来。</point>
+				<point>挑选与所申请的工作相关的信息。</point>
+				<point>确保所有信息准确无误。</point>
+			</checklist>
+		</planning>
+		<vocab>
+			<checklist>
+				<point help="cv_use_action_verbs.xml">用动作动词和形容词正面描述自己。</point>
+				<point help="cv_use_appropriate.xml">用适当的词语说明自己的技能和经历。</point>
+			</checklist>
+		</vocab>
+		<writing>
+			<checklist>
+				<point>按本结构组织内容。</point>
+				<point>按倒序方式列出学历和工作经历，把最近的排最前。</point>
+				<point>使用完整句子（如 I taught French at a summer school）或笔记形式（Taught French at summer school）。</point>
+				<point>从主动性、团队合作、组织、解决问题和工作热情几方面描述工作经历。</point>
+			</checklist>
+		</writing>
+		<checking>
+			<checklist>
+				<point>简历够简短吗？（应届毕业大学生不应超过一页）</point>
+				<point>适当地使用了大写字母、粗体、间距和下划线，使简历清晰美观、便于阅读吗？</point>
+				<point>使用了 Times New Roman、Arial 或 Verdana 等字体，且字号不小于 10 磅吗？</point>
+				<point>使用了 216 x 279 mm 的标准美国纸张大小吗？</point>
+				<point>页边距大小合理吗？</point>
+				<point>使用了美式拼写和标点符号吗？</point>
+			</checklist>
+		</checking>
+	</practice_rubric>
+	<paragraphs>
+		<paragraph>
+			<name eid="1">个人信息</name>
+			<tip>提示：提供大学住址或当前临时住址（如有），以及永久住址。不必提及自己的年龄、性别、国籍、种族、宗教或婚姻状况。如非招聘的公司要求，不要寄照片。</tip>
+			<content eid="2" prompt="在这里键入个人信息">
+				<para>Name:  Jane Q. Student</para>
+				<para>Email:  jqstudent@mba.nau.edu</para>
+				<para>Present address:</para>
+				<para>508 Blackbird Roost</para>
+				<para>Flagstaff, AZ, USA 86011</para>
+				<para>Telephone:</para>
+				<para>+ 1 929 555 1212</para>
+				<para>
+					<?xm-replace_text {para}?></para>
+				<para>Permanent address:</para>
+				<para>50, rue de Vaugirard</para>
+				<para>Saint-Sulpice, France 75006</para>
+				<para>Telephone:</para>
+				<para>+ 33 1234 567 890</para>
+			</content>
+		</paragraph>
+		<paragraph>
+			<name eid="3">目标</name>
+			<tip>提示：概述自己的目标并按特定职位写简历。列出一个现实的短期目标和／或目前能够胜任的工作。</tip>
+			<notes>
+				<?xm-replace_text {notes}?></notes>
+			<content eid="4" prompt="在这里键入目标">
+				<para>OBJECTIVE</para>
+				<para>To obtain an entry-level management position within an international hospitality organization.</para>
+			</content>
+		</paragraph>
+		<paragraph>
+			<name eid="5">学历</name>
+			<desc eid="6">学历按倒序排列。</desc>
+			<tip>提示：不要列出小学。尽量提供与美国对应的学历。有工作经验的求职者应列出主要学历，不要将每次考试成绩都列出。</tip>
+			<notes>
+				<?xm-replace_text {notes}?></notes>
+			<content eid="7" prompt="在这里键入学历详情">
+				<para>EDUCATION</para>
+				<para>Masters in Business Administration (M.B.A.), 2011-2013</para>
+				<para>Northern Arizona University, Flagstaff, Arizona, USA</para>
+				<para>B.A. in International Hospitality, 2007-2011</para>
+				<para>Université de Savoie, Chambéry, France</para>
+			</content>
+		</paragraph>
+		<paragraph>
+			<name eid="8">工作经历</name>
+			<desc eid="9">这部分也按倒序排列，首先列出最近的工作。</desc>
+			<tip>提示：如果是应届毕业大学生，列出假期或兼职工作。有工作经验的求职者应将这部分放在学历之前。着重写一下最近的工作。介绍各项工作时，先写职称和职责，然后写业绩。一般不写薪水。</tip>
+			<notes>
+				<?xm-replace_text {notes}?></notes>
+			<content eid="10" prompt="在这里键入工作经历详情">
+				<para>EXPERIENCE</para>
+				<para>Travel Agent, Sep. 2006-Present</para>
+				<para>Kokopelli Extreme Tours, Sedona, Arizona, USA</para>
+				<para>Organized adventure package tours for large student groups, trained and supervised new staff members, and maintained partner relationships.</para>
+				<para>Camp Counselor, Jun 2007-Aug 2011</para>
+				<para>Voyageurs Summer Camp, Voglans, France</para>
+				<para>Acted as a group leader for children aged 10-15, developed curriculum for campers, and led overnight hiking trips into the nearby wilderness.</para>
+			</content>
+		</paragraph>
+		<paragraph>
+			<name eid="11">奖项</name>
+			<desc eid="12">列出所获得的任何奖项。</desc>
+			<notes>
+				<?xm-replace_text {notes}?></notes>
+			<content eid="13" prompt="在这里键入奖项详情">
+				<para>HONORS</para>
+				<para>Agent of the Month, Kokopelli Extreme Tours, March 2013</para>
+				<para>Voted 'Most Popular Counselor,' Voyageurs, 2010 &amp; 2011</para>
+			</content>
+		</paragraph>
+		<paragraph>
+			<name eid="14">技能</name>
+			<desc eid="15">个人的实践能力。</desc>
+			<tip>提示：列出所通过的考试或获得的资格。有工作经验的求职者这部分可详写，分段列出统筹管理、计算机、社交等有关技能。</tip>
+			<notes>
+				<?xm-replace_text {notes}?></notes>
+			<content eid="16" prompt="在这里键入技能详情">
+				<para>SKILLS</para>
+				<para>Fluent in French and English; conversational Spanish</para>
+			</content>
+		</paragraph>
+		<paragraph>
+			<name eid="17">兴趣</name>
+			<tip>提示：这部分要简短。可能的话，列出一项体育运动、一项有创意的活动和一项社区活动。避免过于笼统的主题，如阅读或旅行 （除非你用较长时间认真旅行过）。</tip>
+			<notes>
+				<?xm-replace_text {notes}?></notes>
+			<content eid="18" prompt="在这里键入兴趣详情">
+				<para>INTERESTS</para>
+				<para>Enjoy web design in HTML and Flash</para>
+			</content>
+		</paragraph>
+		<paragraph>
+			<name eid="19">推荐人</name>
+			<desc eid="20">寄简历时要提供推荐人的姓名和地址，放在单独一页上。</desc>
+		</paragraph>
+	</paragraphs>
+</framework>

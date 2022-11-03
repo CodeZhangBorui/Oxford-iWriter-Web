@@ -1,0 +1,23 @@
+﻿<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='Use linking words and phrases'>
+	
+<p>You can use all these words or phrases at the start of a sentence, except for <span fontWeight='bold'>also</span> and <span fontWeight='bold'>as well</span>.</p>
+<p><span color='#0000FF'>Introduction</span></p>
+<p><span fontWeight='bold'>Today, Nowadays, These days</span></p>
+<p><span color='#0000FF'>More information</span></p>
+<p><span fontWeight='bold'>In addition, Furthermore, Moreover, What is more, First of all, Firstly/Secondly, Finally/Lastly, also, as well</span></p>
+<p>&gt; See note at <span fontWeight='bold'>also</span></p>
+<p><span color='#0000FF'>Contrast</span></p>
+<p><span fontWeight='bold'>However, Nevertheless, Despite this, In spite of this, Although, On the other hand</span></p>
+
+<p><span color='#0000FF'>Consequences</span></p>
+<p><span fontWeight='bold'>Therefore, As a result, For this Reason, Consequently, So</span></p>
+<p>&gt; See note at <span fontWeight='bold'>therefore</span></p>
+<p><span color='#0000FF'>Opinions</span></p>
+<p><span fontWeight='bold'>In my opinion, From my point of view</span></p>
+<p>&gt; See note at <span fontWeight='bold'>think</span></p>
+<p><span color='#0000FF'>Conclusion</span></p>
+<p><span fontWeight='bold'>In short, To sum up, In conclusion, To conclude</span></p>
+
+
+
+</TextFlow>

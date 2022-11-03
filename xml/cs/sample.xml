@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<BookList>
+    <Book>
+        <Title>标题1</Title>
+        <Publisher>出版社1</Publisher>
+    </Book>
+    <Book>
+        <Title name='test'>标题2</Title>
+        <Publisher>出版社2</Publisher>
+    </Book>
+    <Book>
+        <Title name='test'>标题3</Title>
+        <Publisher>出版社3</Publisher>
+    </Book>
+    <Book>
+        <Title name='test'>标题4</Title>
+        <Publisher>出版社4</Publisher>
+    </Book>
+</BookList>

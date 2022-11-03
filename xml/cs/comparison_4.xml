@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<!DOCTYPE framework SYSTEM "ald8_iwriter.dtd">
+<framework>
+    <framework_title>对比文 4</framework_title>
+    <framework_intro>
+        <para>写较长的对比文时，建议采用以下结构。将文章要点和内容填写到相应位置。</para>
+            
+    </framework_intro>
+    <practice_rubric>
+        <planning>
+            <checklist>
+                <point help="argument_brainstorm.xml">开动脑筋找出相似点和不同点。例如，将要点用表列出。</point>
+                <point help="argument_read_and_research.xml">阅读这个主题的相关资料并展开调查研究。</point>
+                <point>突出显示相似点和不同点并决定哪方面更重要。</point>
+                <point>选择文章中哪些要点要包括在内、哪些要舍弃。</point>
+                <point>决定如何定义所比较的两个事物。</point>
+                <point>按本结构组织要点。</point>
+            </checklist>
+        </planning>
+        <vocab>
+            <checklist>
+                <point help="argument_formal.xml">使用正式和客观的语言。</point>
+                <point help="compare_words_differences.xml">通过遣词造句描述差别。</point>
+                <point help="compare_words_similarities.xml">通过遣词造句描述相似点。</point>
+            </checklist>
+        </vocab>
+        <writing>
+            <checklist>
+                <point help="argument_connecting_words.xml">使用衔接词和短语，以便读者对文章的结构一目了然。</point>
+            </checklist>
+        </writing>
+        <checking>
+            <checklist>
+                <point>回答问题了吗？</point>
+                <point>介绍了主题、有逻辑地阐述主题并得出结论了吗？</point>
+                <point>结论与文章其他部分一致吗？</point>
+                <point>段落划分得当吗？</point>
+                <point>长度合适吗？</point>
+                <point>检查用词、语法、拼写和标点符号了吗？</point>
+            </checklist>
+        </checking>
+    </practice_rubric>
+    <paragraphs>
+        <paragraph>
+            <name>题目</name>
+            <desc>文章题目</desc>
+            <content prompt="在这里键入题目"/>
+        </paragraph>
+        <paragraph>
+            <name>引言</name>
+            <desc>介绍主题。说明本文的讨论范围。</desc>
+            <notes/>
+            <content prompt="在这里键入引言"/>
+        </paragraph>
+        <paragraph>
+            <name>第一个方面：比较甲和乙</name>
+            <desc>对所比较的两个事物的一个重要特点进行描述并加以比较。</desc>
+            <tip>提示：此处可分几段讨论。</tip>
+            <notes/>
+            <content/>
+        </paragraph>
+        <paragraph>
+            <name>第二个方面：比较甲和乙</name>
+            <desc>对所比较的两个事物的另一重要特点进行描述并加以比较。</desc>
+            <tip>提示：此处可分几段讨论。</tip>
+            <notes/>
+            <content/>
+        </paragraph>
+        <paragraph>
+            <name>第三个方面：比较甲和乙</name>
+            <desc>对所比较的两个事物的又一重要特点进行描述并加以比较。</desc>
+            <tip>提示：此处可分几段讨论。</tip>
+            <notes/>
+            <content/>
+        </paragraph>
+        <paragraph>
+            <name>结论</name>
+            <desc>根据前面几段的讨论进行归纳总结，并讨论甲和乙相似点多还是不同点多。</desc>
+            <notes/>
+            <content prompt="在这里键入结论"/>
+        </paragraph>
+    </paragraphs>
+</framework>

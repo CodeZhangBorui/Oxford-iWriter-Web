@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<!DOCTYPE framework SYSTEM "ald8_iwriter.dtd">
+<framework>
+	<framework_title>应届毕业大学生简历</framework_title>
+	<framework_intro>
+		<para>初次申请工作时，建议采用以下结构写简历。将简历内容填写到相应位置。</para>
+	</framework_intro>
+	<guided_tour>
+		<step label="简历的目的是什么？">
+			<commentary>
+				<para>一份写得好、制作得体、恰如其分的简历（英式英语称 CV/curriculum vitae，美式英语称 résumé）是求职者通向面试阶段至关重要的一环。初次申请工作时，可参照本范例写简历。</para>
+				<para>写简历时，最好问一下老师或导师是否有特别规定。</para>
+				<para>另参见附信。</para>
+			</commentary>
+		</step>
+		<step label="简历的结构如何？" para_ids="1, 3, 5, 7, 9, 11, 13, 15">
+			<commentary>
+				<para>以下是本简历所采用的结构。</para>
+			</commentary>
+		</step>
+		<step label="个人信息" para_ids="1, 2">
+			<commentary>
+				<para>Name（姓名）、Address（住址）等标记可省略。不必提及自己的年龄、性别、国籍、种族、宗教或婚姻状况。如非招聘的公司要求，不要寄照片。</para>
+			</commentary>
+		</step>
+		<step label="目标／简介" para_ids="3, 4, 5, 6">
+			<commentary>
+				<para>这两部分让雇主对求职者想找的工作及其本人有所了解。有些人不写这些部分。</para>
+			</commentary>
+		</step>
+		<step label="学历" para_ids="7,8">
+			<commentary>
+				<para>这部分按倒序排列，不要列出小学。</para>
+			</commentary>
+		</step>
+		<step label="工作经历" para_ids="9, 10">
+			<commentary>
+				<para>这部分也按倒序排列，首先列出最近的工作。这是一份刚毕业大学生的简历，因此包括了假期和兼职工作。</para>
+			</commentary>
+		</step>
+		<step label="技能" para_ids="11, 12">
+			<commentary>
+				<para>这里列出求职者的实践能力。这部分也包括任何与之相关的正式学历。</para>
+			</commentary>
+		</step>
+		<step label="兴趣" para_ids="13, 14">
+			<commentary>
+				<para>这部分要简短。一般包括体育运动、有创意的活动和社区活动之类的事情，但不包括阅读或旅行之类过于笼统的主题。</para>
+			</commentary>
+		</step>
+		<step label="推荐人" para_ids="15, 16">
+			<commentary>
+				<para>这里列出推荐人的姓名和地址。推荐人是指了解申请人的人，能够证明申请人的品格和能力。</para>
+			</commentary>
+		</step>
+	</guided_tour>
+	<practice_rubric>
+		<planning>
+			<checklist>
+				<point>将简历所需信息归总起来。</point>
+				<point>挑选与所申请的工作相关的信息。</point>
+				<point>确保所有信息准确无误。</point>
+			</checklist>
+		</planning>
+		<vocab>
+			<checklist>
+				<point help="cv_use_action_verbs.xml">用动作动词和形容词正面描述自己。</point>
+				<point help="cv_use_appropriate.xml">用适当的词语说明自己的技能和经历。</point>
+			</checklist>
+		</vocab>
+		<writing>
+			<checklist>
+				<point>按本结构组织内容。</point>
+				<point>按倒序方式列出学历和工作经历，把最近的排最前。</point>
+				<point>使用完整句子（如 I taught French at a summer school）或笔记形式（Taught French at summer school）。</point>
+			</checklist>
+		</writing>
+		<checking>
+			<checklist>
+				<point>简历够简短吗？（最好不超过两页）</point>
+				<point>使用了大写字母、粗体、间距和下划线，以使简历引人注目并容易阅读吗？</point>
+				<point>使用了 Times New Roman、Arial 或 Verdana 等字体，且字号不小于 10 磅吗？</point>
+				<point>页边距大小合理吗？</point>
+				<point>检查拼写和标点符号了吗？</point>
+			</checklist>
+		</checking>
+	</practice_rubric>
+	<paragraphs>
+		<paragraph>
+			<name eid="1">个人信息</name>
+			<tip>提示：标记可省略。不必提及自己的年龄、性别、国籍、种族、宗教或婚姻状况。如非招聘的公司要求，否则不要寄照片。</tip>
+			<content eid="2" prompt="在这里键入个人信息">
+				<para>Name:		Pamela Janet Mason</para>
+				<para>Address:	29 Greenlands Avenue, London, SW3 6RF</para>
+				<para>Telephone:	01924 786512</para>
+				<para>Mobile:		0779 9238182</para>
+				<para>Email:		pam_mason@scapenet.com</para>
+			</content>
+		</paragraph>
+		<paragraph>
+			<name eid="3">目标</name>
+			<tip>提示：有些人不写这部分，但这部分的确会让雇主对自己有所了解。</tip>
+			<notes>
+				<?xm-replace_text {notes}?></notes>
+			<content eid="4" prompt="在这里键入目标">
+				<para>Objective:</para>
+				<para>To find a role in a film or TV production company that will enable me to acquire and develop the skills required for a career in film or television.</para>
+			</content>
+		</paragraph>
+		<paragraph>
+			<name eid="5">简介</name>
+			<tip>提示：有些人不写这部分，但这部分的确会让雇主对自己有所了解。</tip>
+			<notes>
+				<?xm-replace_text {notes}?></notes>
+			<content eid="6" prompt="在这里键入简介">
+				<para>Profile:</para>
+				<para>An outgoing and articulate graduate with work experience in both television and teaching.</para>
+			</content>
+		</paragraph>
+		<paragraph>
+			<name eid="7">学历</name>
+			<desc>学历按倒序排列。附带列出获奖情况。</desc>
+			<tip>提示：不要列出小学。尽量提供与英国对应的学历。</tip>
+			<notes>
+				<?xm-replace_text {notes}?></notes>
+			<content eid="8" prompt="在这里键入学历详情">
+				<para>Education and qualifications:</para>
+				<para>2014-present:	MA in Media Studies. Bristol University. Expected 2015</para>
+				<para>2010-2014:	BA In Media Studies with French (2:1) Bristol University</para>
+				<para>2002-2009	Beacon School, London</para>
+				<para>3 A levels: Drama (A); French (A); German (B)</para>
+				<para>5 AS levels</para>
+				<para>9 GCSEs</para>
+			</content>
+		</paragraph>
+		<paragraph>
+			<name eid="9">工作经历</name>
+			<desc>这部分也按倒序排列，首先列出最近的工作。可列出假期或兼职工作。</desc>
+			<notes>
+				<?xm-replace_text {notes}?></notes>
+			<content eid="10" prompt="在这里键入工作经历详情">
+				<para>Work experience:</para>
+				<para>October 2012-June 2013: Language assistant in secondary school in France. Taught English to large classes and small groups. Ran a film club and a holiday dance and drama club. Assisted with school drama productions.</para>
+				<para>September 2009-August 2010: Production assistant at Oordman and Associates Filmmakers, London N16. Performed office and on-set duties.</para>
+				<para>June-September 2009: Tutor for Jacaranda Drama Workshops. Led groups of teenagers of different backgrounds in dance and drama activities. Directed end of course shows.</para>
+				<para>July-August 2008: Host at Adventure Camping holiday campsite in France. Led the children's club for 4-10 year olds and performed various practical duties on the campsite.</para>
+			</content>
+		</paragraph>
+		<paragraph>
+			<name eid="11">技能</name>
+			<desc>个人的实践能力。列出所通过的考试或获得的资格。</desc>
+			<notes>
+				<?xm-replace_text {notes}?></notes>
+			<content eid="12" prompt="在这里键入技能详情">
+				<para>Skills:</para>
+				<para>Languages: French-near native-speaker fluency (CEF C1); German (B2).</para>
+				<para>Good keyboard skills. Familiarity with Word, Excel and film editing packages.</para>
+				<para>Clean driving licence.</para>
+			</content>
+		</paragraph>
+		<paragraph>
+			<name eid="13">兴趣</name>
+			<tip>提示：这部分要简短。可能的话，列出一项体育运动、一项有创意的活动和一项社区活动。避免过于笼统的主题，如阅读或旅行 （除非你用较长时间认真旅行过）。</tip>
+			<notes>
+				<?xm-replace_text {notes}?></notes>
+			<content eid="14" prompt="在这里键入兴趣详情">
+				<para>Interests:</para>
+				<para>Drama, both acting and directing; singing (was member of university choral society).</para>
+				<para>Regular volunteer at a local centre for the homeless.</para>
+			</content>
+		</paragraph>
+		<paragraph>
+			<name eid="15">推荐人</name>
+			<tip>提示：寄简历时要提供推荐人的姓名和地址，列在此处或放在单独一页上均可。</tip>
+			<content eid="16" prompt="在这里键入推荐人">
+				<para>References:</para>
+				<para>Professor May Duncan</para>
+				<para>Department of French</para>
+				<para>Bristol University</para>
+				<para>Bristol BS8 1TH</para>
+				<para>
+					<?xm-replace_text {para}?></para>
+				<para>Ms R J Oordman</para>
+				<para>Oordman and Associates Filmmakers</para>
+				<para>London N16 6TJ</para>
+			</content>
+		</paragraph>
+	</paragraphs>
+</framework>

@@ -1,0 +1,12 @@
+﻿<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='Think about the beginning and ending of the letter'>
+	
+	
+<p>If you do not know the name of the person you are writing to, use:</p>
+<p><span fontStyle="italic">Dear Sir/Madam... ...Yours faithfully</span></p>
+
+<p>If you do know their name, use <span fontWeight='bold'>Mr</span>, <span fontWeight='bold'>Mrs</span>, <span fontWeight='bold'>Miss</span> or <span fontWeight='bold'>Ms</span> + surname:</p>
+<p><span fontStyle="italic">Dear Mrs Dawson... ...Yours sincerely</span></p>
+
+
+
+</TextFlow>

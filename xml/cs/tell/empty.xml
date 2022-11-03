@@ -1,0 +1,21 @@
+﻿<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header=''>
+	
+ <p></p>
+	<p/>
+
+
+	
+	<span fontStyle="italic">
+	<span fontWeight='bold'>
+	<span color='#0000FF'>
+
+	<p><span fontWeight='bold'></span></p>
+	<p><span fontWeight='bold' color='#0000FF'></span></p>
+	<p><span fontStyle="italic"></span></p>
+    <p><span color='#0000FF'></span></p>
+      <p><span fontStyle="italic"><span fontWeight='bold'></span></span></p> 
+
+	
+
+
+</TextFlow>

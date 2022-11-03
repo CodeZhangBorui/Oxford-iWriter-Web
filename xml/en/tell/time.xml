@@ -1,0 +1,19 @@
+﻿<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='Time expressions'>
+	
+<p><span fontWeight='bold' color='#0000FF'>Past expressions:</span></p>
+<p><span color='#0000FF'>Last month / year</span></p>
+<p><span color='#0000FF'>The day / week / month before</span></p>
+<p><span color='#0000FF'>Three years / Six months / two days ago</span></p>
+<p>It <span fontWeight='bold' fontStyle="italic">has been / had been</span> only six months <span fontWeight='bold' fontStyle="italic">since</span> she <span fontWeight='bold' fontStyle="italic">last saw / had last seen</span> her father.</p>
+<p>He <span fontWeight='bold' fontStyle="italic">was / had been</span> fourteen years old <span fontWeight='bold' fontStyle="italic">when</span> he had last visited London.</p>
+<p><span fontStyle="italic" fontWeight='bold'>After</span> meeting him at the airport, the family drove him home.</p>
+<p><span fontStyle="italic" fontWeight='bold'>Two days later</span>, they went to a football match.</p>
+<p>Ben had bought the tickets <span fontStyle="italic" fontWeight='bold'>ten days earlier</span>.</p><p></p>
+<p><span fontWeight='bold' color='#0000FF'>Future expressions:</span></p>
+<p><span color='#0000FF'>The following week …</span></p>
+<p><span color='#0000FF'>Two months from now…</span></p>
+<p><span color='#0000FF'>In five days’ time…</span></p>
+	
+ 
+
+</TextFlow>

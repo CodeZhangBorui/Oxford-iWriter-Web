@@ -1,0 +1,21 @@
+<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='使用恰当的词和短语'>
+
+<p><span color='#0000FF'>开头</span></p>
+<p><span fontWeight='bold' fontStyle='italic'>This film is a classic tale of a</span> <span fontStyle="italic">boy becoming a man</span>.</p>
+<p><span fontWeight='bold' fontStyle='italic'>This moving account of</span> <span fontStyle="italic">three friends and their struggle against evil…</span></p>
+<p><span fontstyle='italic'>Unfortunately</span>, <span fontWeight='bold' fontStyle='italic'>I found this story rather unconvincing</span>.</p>
+<p><span color='#0000FF'>给出你的看法</span></p>
+<p><span fontWeight='bold' fontStyle='italic'>The writer does an excellent job</span> <span fontStyle="italic">of describing characters</span>.</p>
+<p><span fontWeight='bold' fontStyle='italic'>I was impressed by</span> <span fontStyle="italic">the writer’s imagination</span>.</p>
+<p><span fontWeight='bold' fontStyle='italic'>One aspect that I found a little disappointing was</span> <span fontStyle="italic">the battle scenes</span>.</p>
+<p><span fontWeight='bold' fontStyle='italic'>One possible problem is that</span> <span fontStyle="italic">the film seems rushed at times</span>.</p>
+<p><span color='#0000FF'>结论</span></p>
+<p><span fontWeight='bold' fontStyle='italic'>I would highly recommend</span> <span fontStyle="italic">this satisfying film</span>.</p>
+<p><span fontWeight='bold' fontStyle='italic'>I thoroughly enjoyed</span> <span fontStyle="italic">this film</span>. </p>
+<p><span fontWeight='bold' fontStyle='italic'>By the end of the film,</span> <span fontStyle="italic">you feel that the story is complete</span>.</p>
+<p><span fontWeight='bold' fontStyle='italic'>I was left disappointed by</span> <span fontStyle="italic">this story</span>.</p>
+<p><span fontWeight='bold' fontStyle='italic'>I would strongly advise against</span> <span fontStyle="italic">this film for young children</span>.</p>
+	
+
+
+</TextFlow>

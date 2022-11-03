@@ -1,0 +1,12 @@
+<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='构思邮件的开头和结尾'>
+
+<p><span fontWeight='bold'>非正式开头</span></p>
+<p><span fontStyle="italic">Dear</span> + 名字， <span fontStyle="italic">Hi</span> + 名字， <span fontStyle="italic">Hello</span> + 名字。</p><p></p>
+<p><span fontWeight='bold'>非正式结束语</span></p>
+<p><span fontStyle="italic">Best wishes, All the best</span> （泛泛之交）</p>
+<p><span fontStyle="italic">Love, Take care, Speak to you soon</span> （亲密的朋友） </p>
+
+	
+
+
+</TextFlow>

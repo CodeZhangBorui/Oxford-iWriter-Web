@@ -1,0 +1,27 @@
+﻿<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='Use suitable language for covering letters'>
+	
+<p><span color='#0000FF'>Giving your reason for writing</span></p>
+<p><span fontStyle="italic">I am writing to apply for the post/position of...</span></p>
+<p><span fontStyle="italic">I am (especially) interested in...</span></p>
+<p><span fontStyle="italic">I hope to...</span></p><p/>
+<p><span color='#0000FF'>Talking about your experience</span></p>
+<p><span fontStyle="italic">I have just finished...</span></p>
+<p><span fontStyle="italic">Since leaving.../graduating from..., I have...</span></p><p/>
+<p><span color='#0000FF'>Showing what you can offer</span></p>
+<p><span fontStyle="italic">As you will see from my CV...</span></p>
+<p><span fontStyle="italic">I have some/considerable experience in...</span></p>
+<p><span fontStyle="italic">I deal/have dealt with...</span></p>
+<p><span fontStyle="italic">I can offer (skills in...)...</span></p>
+<p><span fontStyle="italic">I am responsible for...</span></p><p/>
+<p><span color='#0000FF'>Explaining negative points</span></p>
+<p><span fontStyle="italic">Although I lack (experience in...)..., I... </span></p><p/>
+<p><span color='#0000FF'>Referring to attachments</span></p>
+<p><span fontStyle="italic">I enclose a copy of...</span></p>
+<p><span fontStyle="italic">I attach a copy of...</span></p>
+<p><span fontStyle="italic">As you will see from (my CV)</span></p><p/>
+<p><span color='#0000FF'>Endings</span></p>
+<p><span fontStyle="italic">I look forward to hearing from you.</span></p>
+
+
+
+</TextFlow>

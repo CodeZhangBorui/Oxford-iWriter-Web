@@ -1,0 +1,9 @@
+﻿<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='Remember to use the correct layout for the letter'>
+	
+ <p>Write your address, but not your name, in the top right-hand corner.</p><p/>
+ <p>Write the name and address of the person you are writing to on the left-hand side.</p><p/>
+<p>If you do not know the name of the person, use a title, such as 'The Manager'.</p><p/>
+<p>Write the date underneath.</p>
+<p>It is helpful to give a heading at the beginning of your letter, for example, <span fontStyle="italic">Accommodation in Edinburgh</span>.</p>
+
+</TextFlow>

@@ -1,0 +1,12 @@
+<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='构思信函的开头和结尾'>
+	
+	
+<p>如果不知道收信人的姓名，开头写：</p>
+<p><span fontStyle="italic">Dear Sir/Madam....Yours faithfully</span></p>
+	
+<p>如果知道收信人的姓名，则用<span fontWeight='bold'>Mr</span>, <span fontWeight='bold'>Mrs</span>, <span fontWeight='bold'>Miss</span> 或 <span fontWeight='bold'>Ms</span> + 姓氏：</p>
+<p><span fontStyle="italic">Dear Mrs Dawson... ...Yours sincerely</span></p>
+
+
+
+</TextFlow>

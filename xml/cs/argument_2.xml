@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<!DOCTYPE framework SYSTEM "Q:\rules\ald8_iwriter.dtd">
+<framework>
+    <framework_title>议论文 2</framework_title>
+    <framework_intro>
+        <para>写此类文章时，建议采用以下结构。本结构穿插列举正反两方面的观点。将文章要点和内容填写到相应位置。</para>
+            
+    </framework_intro>
+    <practice_rubric>
+        <planning>
+            <checklist>
+                <point help="argument_brainstorm.xml">开动脑筋思考问题。</point>
+                <point help="argument_read_and_research.xml">阅读这个主题的相关资料并展开研究。</point>
+                <point>搜集资料时，要做详细笔记并准确记录出处。</point>
+                <point>你认为哪些论据最有力？决定好从哪个角度论述。</point>
+                <point>每个方面选 2 到 3 个有说服力的论点，加上相应的例证、观点或证据。有些问题可以用个人经历作为证据。</point>
+                <point>确定文章各个部分的大致字数。</point>
+                <point>记下有关论题的一些有用词汇。</point>
+                <point>按本结构组织要点。</point>
+            </checklist>
+        </planning>
+        <vocab>
+            <checklist>
+                <point help="argument_formal.xml">使用正式和客观的语言。</point>
+                <point help="argument_phrases.xml">通过遣词造句表明立场。</point>
+            </checklist>
+        </vocab>
+        <writing>
+            <checklist>
+                <point help="argument_connecting_words.xml">利用衔接词和短语使文章结构一目了然。</point>
+                <point>引述他人的话或说明出处以支持自己的论点。</point>
+                <point help="argument_make_clear.xml">说明哪些话／观点是我本人的、哪些话／观点是引用的。</point>
+            </checklist>
+        </writing>
+        <checking>
+            <checklist>
+                <point>回答问题了吗？</point>
+                <point>介绍了主题、有逻辑地阐述主题并得出结论了吗？</point>
+                <point>提出的每个论点都有证据、例证和原因支持吗？</point>
+                <point>结论与论点一致吗？</point>
+                <point>段落划分得当吗？</point>
+                <point>长度合适吗？</point>
+                <point>检查用词、语法、拼写和标点符号了吗？</point>
+            </checklist>
+        </checking>
+    </practice_rubric>
+    <paragraphs>
+        <paragraph>
+            <name>题目</name>
+            <desc>文章题目</desc>
+            <content prompt="在这里键入题目"/>
+        </paragraph>
+        <paragraph>
+            <name>引言</name>
+            <desc>引出主题并说明文章重点。</desc>
+            <tip>提示：由宽到窄点题。</tip>
+            <notes/>
+            <content prompt="在这里键入引言"/>
+        </paragraph>
+        <paragraph>
+            <name>论点一</name>
+            <desc>提出第一个论点并提供相应的证据、例证或理由。</desc>
+            <tip>提示：每个论点可用一个或多个段落讨论。</tip>
+            <notes/>
+            <content/>
+        </paragraph>
+        <paragraph>
+            <name>反方论点</name>
+            <desc>列出针对第一个论点的反方论点及其证据、例证或理由。</desc>
+            <tip>提示：每个反方论点可用一个或多个段落讨论。</tip>
+            <notes/>
+            <content/>
+        </paragraph>
+        <paragraph>
+            <name>论点二</name>
+            <desc>提出第二个论点并提供相应的证据、例证或理由。</desc>
+            <notes/>
+            <content/>
+        </paragraph>
+        <paragraph>
+            <name>反方论点</name>
+            <desc>列出针对第二个论点的反方论点及其证据、例证或理由。</desc>
+            <notes/>
+            <content/>
+        </paragraph>
+        <paragraph>
+            <name>其他论点和反方论点。</name>
+            <desc>穿插讨论其他论点和反方论点。</desc>
+            <tip>提示：每个论点和反方论点都应独立成段。</tip>
+            <notes/>
+            <content/>
+        </paragraph>
+        <paragraph>
+            <name>对论点的评论</name>
+            <desc>说明自己认为哪些论点更有说服力，给出理由。</desc>
+            <notes/>
+            <content/>
+        </paragraph>
+        <paragraph>
+            <name>归纳总结</name>
+            <desc>归纳所提出的论点，并申明针对文章的主题或题目所得出的结论。</desc>
+            <tip>提示：结论段可以由窄到宽总结要点。</tip>
+            <notes/>
+            <content prompt="在这里键入结论"/>
+        </paragraph>
+    </paragraphs>
+</framework>

@@ -1,0 +1,14 @@
+﻿<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='Using speech marks'>
+	
+	
+<p>It is important to use speech marks (also called 'inverted commas' or 'quotation marks') correctly when you use speech or dialogue in your story.</p><p></p>
+<p>If you are reporting the thoughts or words of a character indirectly, do not use speech marks.  e.g. <span fontStyle="italic">Would he and Ben get on well together?</span></p><p></p>
+<p>If you are giving the direct words of a character, remember:</p><p></p>
+<p>Speech marks go outside the words spoken by the speaker. The spoken words are divided from the reporting verb by a comma, and a full stop comes at the end:</p><p></p>
+<p><span fontStyle="italic">“I'm scared,” said Michael.</span></p>
+<p><span fontStyle="italic">Michael said, “I'm scared.”</span></p>
+
+
+
+
+</TextFlow>

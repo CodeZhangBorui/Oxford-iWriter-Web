@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<!DOCTYPE framework SYSTEM "ald8_iwriter.dtd">
+<framework>
+    <framework_title>对比文 1</framework_title>
+    <framework_intro>
+        <para>写此类文章时，建议采用以下结构。本结构强调不同点：首先列出所有相似点，然后列出所有不同点。将文章要点和内容填写到相应位置。</para>
+    </framework_intro>
+    <guided_tour>
+        <step label="怎样组织对比文？">
+            <commentary>
+                <para>比较和对比两种事物、观点、制度等的文章可有几种组织方式。</para>
+                <para>在本范例中，作者想强调两类学校之间的不同点。作者首先用一个段落讨论了相似点，然后分两段讨论两处重要差别，第三段讨论一些较次要的差别。</para>
+            </commentary>
+        </step>
+        <step label="文章的结构如何？" para_ids="2,3,6,7,16,17,25,26,39,40">
+            <commentary>
+                <para>以下是本文所采用的结构。</para>
+            </commentary>
+        </step>
+        <step label="怎样谋篇布局？" para_ids="2,3,6,7,16,17,25,26,39,40,4,8,18,27,41">
+            <commentary>
+                <para>构思文章时，须确定各段的内容并列出要点。</para>
+            </commentary>
+        </step>
+        <step label="如何写引言" para_ids="4,6,7,12">
+            <commentary>
+                <para>引言段的目的是说明文章主题（情况或问题等），以及打算如何展开讨论。典型的引言首先进行概括陈述，然后明确重点。</para>
+                <para showme="13">第 1、第 2 句引发读者的兴趣。</para>
+                <para showme="14">第 4 句指出文章的范围并引出下一段。</para>
+            </commentary>
+        </step>
+        <step label="看看主要段落" para_ids="4,16,17,19,25,26,28">
+            <commentary>
+                <para>第 2 段指出 2 个相似点。</para>
+                <para>其余几段集中讨论差别。</para>
+            </commentary>
+        </step>
+        <step label="如何写结论" para_ids="4,39,40,46">
+            <commentary>
+                <para>结论段的目的是确定无疑地表明本人对该问题的看法。</para>
+                <para showme="47">第 1 句归纳总结文章的讨论结果。</para>
+                <para showme="48">第 2 句提出作者本人的看法。</para>
+            </commentary>
+        </step>
+        <step label="显示有用语句" para_ids="4,9,19,28,42">
+            <commentary>
+                <para>利用关键词或短语：</para>
+                <para showme="20,21,22,23">引出相似点</para>
+                <para showme="10,11,29,30,31,32,33,34,35,36,37,43,44,45">引出对比</para>
+            </commentary>
+        </step>
+    </guided_tour>
+    <practice_rubric>
+        <planning>
+            <checklist>
+                <point help="argument_brainstorm.xml">开动脑筋找出相似点和不同点。例如，将要点用表列出。</point>
+                <point help="argument_read_and_research.xml">阅读这个主题的相关资料并展开调查研究。</point>
+                <point>突出显示相似点和不同点并决定哪方面更重要。</point>
+                <point>选择文章中哪些要点要包括在内、哪些要舍弃。</point>
+                <point>决定如何定义所比较的两个事物。</point>
+                <point>按本结构组织要点。</point>
+            </checklist>
+        </planning>
+        <vocab>
+            <checklist>
+                <point help="argument_formal.xml">使用正式和客观的语言。</point>
+                <point help="compare_words_differences.xml">通过遣词造句描述差别。</point>
+                <point help="compare_words_similarities.xml">通过遣词造句描述相似点。</point>
+            </checklist>
+        </vocab>
+        <writing>
+            <checklist>
+                <point help="argument_connecting_words.xml">使用衔接词和短语，以便读者对文章的结构一目了然。</point>
+            </checklist>
+        </writing>
+        <checking>
+            <checklist>
+                <point>回答问题了吗？</point>
+                <point>介绍了主题、有逻辑地阐述主题并得出结论了吗？</point>
+                <point>结论与文章其他部分一致吗？</point>
+                <point>段落划分得当吗？</point>
+                <point>长度合适吗？</point>
+                <point>检查用词、语法、拼写和标点符号了吗？</point>
+            </checklist>
+        </checking>
+    </practice_rubric>
+    <paragraphs>
+        <paragraph eid="1">
+            <name eid="2">题目</name>
+            <desc eid="3">文章题目</desc>
+            <content eid="4" prompt="在这里键入题目">
+                <para>Are private schools better than state schools?</para>
+            </content>
+        </paragraph>
+        <paragraph eid="5">
+            <name eid="6">引言</name>
+            <desc eid="7">引出主题并说明本文的讨论范围。</desc>
+            <notes eid="8">
+                <para>Parents - have choice of state or private schools.</para>
+                <para>Definition: state schools = no fees; private schools = fees.</para>
+                <para>Important to look at differences - esp. curriculum, quality of teaching, achievement.</para>
+            </notes>
+            <content eid="9" prompt="在这里键入引言">
+                <para>For parents, few things are more important than their child's education. In many countries, parents of school-age children can choose to send their child to a private school rather than to a state school. In this essay, state schools are defined as those that do not charge tuition fees because they are funded and run by local or central government; private schools, <useful type="contrast" eid="10">on the other hand</useful>, are funded almost entirely by the fees that they charge. Before deciding where to educate their child, parents need to examine the <useful type="contrast" eid="11">differences between</useful> the two types of school, particularly as regards the curriculum, the quality of tuition and student achievement.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <content eid="12" dup="9">
+                <para>
+                    <extra_info eid="13">For parents, few things are more important than their child's education. In many countries, parents of school-age children can choose to send their child to a private school rather than to a state school.</extra_info> In this essay, state schools are defined as those that do not charge tuition fees because they are funded and run by local or central government; private schools, on the other hand, are funded almost entirely by the fees that they charge. <extra_info eid="14">Before deciding where to educate their child, parents need to examine the differences between the two types of school, particularly as regards the curriculum, the quality of tuition and student achievement.</extra_info>
+                </para>
+            </content>
+        </paragraph>
+        <paragraph eid="15">
+            <name eid="16">相似点</name>
+            <desc eid="17">说明甲、乙之间相似的方面或特点。</desc>
+            <tip>提示：此处可分几段讨论。</tip>
+            <notes eid="18">
+                <para>Both have same aim: to increase knowledge, prepare for future.</para>
+                <para>Both have same organization: - terms/semesters and assessments.</para>
+            </notes>
+            <content eid="19">
+                <para>Private and state schools <useful type="similarity" eid="20">are comparable</useful> in some respects. <useful type="similarity" eid="21">Like</useful> state schools, private schools aim to develop the knowledge, skills and character of students, in order to prepare them for their future lives. <useful type="similarity" eid="22">Both</useful> types of school <useful type="similarity" eid="23">are also very similar</useful> in the way they organize their teaching and assessment, using terms or semesters with assessments at the end of the academic year.</para>
+            </content>
+        </paragraph>
+        <paragraph eid="24">
+            <name eid="25">不同点</name>
+            <desc eid="26">接下来说明甲、乙之间不同的方面或特点。</desc>
+            <tip>提示：此处可分几段讨论。</tip>
+            <notes eid="27">
+                <para>Main differences: range of subjects - more in private schools. State schools have national curriculum.</para>
+                <para>: teachers - higher pay in private schools = more specialized teachers?</para>
+                <para>: class sizes - smaller in private schools = better discipline and higher standards.</para>
+            </notes>
+            <content eid="28">
+                <para>
+                    <useful type="contrast" eid="29">Despite these similarities</useful>, there are a number of <useful type="contrast" eid="30">marked differences</useful> in the way that state and private schools operate. The range of subjects taught at state schools is largely limited by the demands of the national curriculum. <useful type="contrast" eid="31">In contrast</useful>, private schools can offer a greater choice of subjects, because they generally have <useful type="contrast" eid="32">more</useful> money to spend on equipment, technology and staff <useful type="contrast" eid="33">than</useful> state schools do.</para>
+                <para>Teachers working within the state system must have recognized teaching qualifications and are paid according to a national scale. Private schools, however, are in a position to offer <useful type="contrast" eid="34">higher</useful> salaries and may therefore be able to attract subject specialists who have considerable expertise in their field.</para>
+                <para>In general, it is true to say that <useful type="contrast" eid="35">while</useful> state schools have a high student-teacher ratio, private schools tend to offer <useful type="contrast" eid="36">smaller</useful> classes. This may lead to <useful type="contrast" eid="37">better</useful> discipline in private schools with the result that students may achieve somewhat higher academic standards.</para>
+            </content>
+        </paragraph>
+        <paragraph eid="38">
+            <name eid="39">结论</name>
+            <desc eid="40">根据所讨论的相似点和不同点的强弱程度进行归纳总结，说明自己的看法或得出结论。</desc>
+            <notes eid="41">
+                <para>Differences are important - private schools may have advantages. Balance this against fees.</para>
+            </notes>
+            <content eid="42" prompt="在这里键入结论">
+                <para>It is clear, therefore, that there are <useful type="contrast" eid="43">significant differences between</useful> private and state schools and that private schools may offer advantages. The benefits of private schooling must, <useful type="contrast" eid="44">however</useful>, be <useful type="contrast" eid="45">balanced against</useful> the cost involved and each family's budget priorities.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <content eid="46" dup="42">
+                <para>
+                    <extra_info eid="47">It is clear, therefore, that there are significant differences between private and state schools and that private schools may offer advantages.</extra_info>
+                    <extra_info eid="48">The benefits of private schooling must, however, be balanced against the cost involved and each family's budget priorities.</extra_info>
+                </para>
+            </content>
+        </paragraph>
+    </paragraphs>
+</framework>

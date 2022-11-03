@@ -1,0 +1,18 @@
+﻿<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='Think about verb tenses'>
+
+<p>If your main story is told in the <span fontWeight='bold'>past tense</span>, anything that happened <span fontWeight='bold'>before</span> that time should be in the <span fontWeight='bold'>past perfect tense</span>.</p><p></p>
+<p>For example:</p>
+<p><span fontStyle="italic">He</span> <span fontWeight='bold' fontstyle="italic">had been</span><span fontStyle="italic"> to London before, but this time everything was different</span>.</p><p></p>
+<p>Anything that happens <span fontWeight='bold'>after</span> the main story will be in a future tense such as past continuous (with “going to”) or would:</p>
+<p><span fontStyle="italic">She </span><span fontWeight='bold' fontstyle="italic">was going to stay</span><span fontStyle="italic"> with her father for a couple of weeks</span>.</p>
+<p><span fontWeight='bold' fontstyle="italic">Would</span> <span fontStyle="italic">he and Ben like the same things?</span></p><p></p>
+<p>If your main story is in the present or the future, then all verb tenses must change to agree with the time of the story.
+</p><p><span fontWeight='bold'>Main story:</span> past</p>
+<p><span fontWeight='bold'>Before main story:</span> past perfect</p>
+<p><span fontWeight='bold'>After main story:</span> <span fontStyle="italic">was/were + going to</span> or <span fontStyle="italic">would</span> (or present/future)</p><p></p>
+<p><span fontWeight='bold'>Main story:</span> present</p>
+<p><span fontWeight='bold'>Before main story:</span> past</p>
+<p><span fontWeight='bold'>After main story:</span> future</p><p></p>
+
+
+</TextFlow>

@@ -1,0 +1,302 @@
+﻿<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="config">
+    <xs:annotation>
+      <xs:documentation>/Writing</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="icon">
+          <xs:annotation>
+            <xs:documentation>Translator - DO NOT TRANSLATE ANY 'SYSTEM SETTINGS'  System settings</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:short" name="x"/>
+                <xs:attribute type="xs:short" name="y"/>
+                <xs:attribute type="xs:byte" name="width"/>
+                <xs:attribute type="xs:string" name="height"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="product"/>
+        <xs:element name="socket">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:short" name="port"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="copyright">
+          <xs:annotation>
+            <xs:documentation>default for Lingea  /System settings  Menu screen</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:short" name="xpos"/>
+                <xs:attribute type="xs:byte" name="ypos"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="home_title"/>
+        <xs:element type="xs:string" name="home_model"/>
+        <xs:element type="xs:string" name="home_writing"/>
+        <xs:element type="xs:string" name="home_help"/>
+        <xs:element name="language_default">
+          <xs:annotation>
+            <xs:documentation>Language selection</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="iw"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="language_1">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="iw"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="language_2">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="iw"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="writing_tab">
+          <xs:annotation>
+            <xs:documentation>/Menu screen  Main tabs</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="iw"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="home_tab"/>
+        <xs:element name="model_tab">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="iw"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="word_plural">
+          <xs:annotation>
+            <xs:documentation>/Main tabs  Dock bar (sub menu)  text follows word count number</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="iw"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="word_singular">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="iw"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="dock_load"/>
+        <xs:element type="xs:string" name="dock_save"/>
+        <xs:element type="xs:string" name="dock_export"/>
+        <xs:element name="dock_awl">
+          <xs:annotation>
+            <xs:documentation>there is very little space for text on the AWL button. Use an abbreviation and expand in 'rollover'</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="rollover"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="dock_help"/>
+        <xs:element type="xs:string" name="help_url">
+          <xs:annotation>
+            <xs:documentation>System settings</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element type="xs:string" name="academic_word_list_enabled"/>
+        <xs:element type="xs:string" name="choose_title">
+          <xs:annotation>
+            <xs:documentation>/Dock bar (sub menu)  Show /hide (bottom left)</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element type="xs:string" name="choose_subtitle_model">
+          <xs:annotation>
+            <xs:documentation>Subtitle for MODEL</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element type="xs:string" name="choose_subtitle_writing">
+          <xs:annotation>
+            <xs:documentation>Subtitle for WRITING</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element type="xs:string" name="show_structure"/>
+        <xs:element type="xs:string" name="show_notes"/>
+        <xs:element type="xs:string" name="show_content"/>
+        <xs:element type="xs:string" name="show_all"/>
+        <xs:element name="model_header">
+          <xs:annotation>
+            <xs:documentation>/Show /hide (bottom left) Model content</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="iw"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="guided_title"/>
+        <xs:element type="xs:string" name="guided_subtitle"/>
+        <xs:element type="xs:string" name="new_project_full_name">
+          <xs:annotation>
+            <xs:documentation>/Model content  Writing</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element name="writing_header">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="iw"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="writing_while">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="iw"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="commentary_help"/>
+        <xs:element type="xs:string" name="default_prompt_for_content"/>
+        <xs:element type="xs:string" name="default_prompt_for_notes"/>
+        <xs:element type="xs:string" name="delete_user_fw_message"/>
+        <xs:element name="writing_before">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="iw"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="writing_check">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="iw"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="writing_choose">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="iw"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="tell_me_more_button"/>
+        <xs:element name="save_prompt">
+          <xs:annotation>
+            <xs:documentation>Warnings and dialogs</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="title"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="directory_select"/>
+        <xs:element name="overwrite_framework">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="title"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dialog">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="ok"/>
+                <xs:attribute type="xs:string" name="cancel"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="delete_user_fw_title"/>
+        <xs:element name="unsaved_fw_dialog_message">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="iw"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="unsaved_fw_dialog_title">
+          <xs:annotation>
+            <xs:documentation>currently the above message box has no title, but one can be added here</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="iw"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ui">
+          <xs:annotation>
+            <xs:documentation>Leave content empty - change okButton attribute to alter text</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="okButton"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

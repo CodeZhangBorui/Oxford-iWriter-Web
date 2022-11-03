@@ -1,0 +1,26 @@
+<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='使用恰当的词和短语'>
+
+
+<p><span fontWeight='bold'>介绍题目</span></p>
+<p><span fontStyle="italic">I am writing to enquire/ask about...</span></p>
+<p><span fontStyle="italic">I am writing regarding/in response to your advertisement.</span></p><p></p>
+<p><span fontWeight='bold'>列出各项</span></p>
+<p><span fontStyle="italic">Firstly,... Secondly,...</span></p>
+<p><span fontStyle="italic">(I would) also...</span></p>
+<p><span fontStyle="italic">To begin with,...</span></p>
+<p><span fontStyle="italic">In addition to this,...</span></p><p></p>
+<p><span fontWeight='bold'>要求信息</span></p>
+<p><span fontStyle="italic">I would be grateful if...</span></p>
+<p><span fontStyle="italic">I would be very grateful for....</span></p>
+<p><span fontStyle="italic">Could you tell me...?</span></p>
+<p><span fontStyle="italic">Could you send me details of...?</span></p>
+<p><span fontStyle="italic">I would like to know if...</span></p><p></p>
+<p><span fontWeight='bold'>结束语</span></p>
+<p><span fontStyle="italic">I look forward to hearing from you.</span></p>
+<p><span fontStyle="italic">With thanks</span></p>
+<p><span fontStyle="italic">With many thanks.</span></p>
+<p><span fontStyle="italic">Thank you in advance for your help.</span></p>
+<p></p>
+
+
+</TextFlow>

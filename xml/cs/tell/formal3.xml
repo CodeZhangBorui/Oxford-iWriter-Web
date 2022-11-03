@@ -1,0 +1,10 @@
+<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='使用正式的语言'>
+	
+<p><span fontWeight='bold' color='#0000FF'>1. 选词</span></p>
+<p>有没有使用非常不正式的词？</p>
+<p>如果不确定，查本词典时不要使用任何标有 <span fontStyle="italic">informal</span> 、<span fontStyle="italic">slang</span> 或 <span fontStyle="italic">spoken</span>的词。</p>
+<p><span fontWeight='bold' color='#0000FF'>2. 简写形式</span></p>
+<p>避免使用缩写形式，例如，不要写<span fontStyle="italic">I’m</span> 或 <span fontStyle="italic">haven’t</span>，但要用<span fontStyle="italic">I am</span> 或 <span fontStyle="italic">have not</span>。</p>
+<p><span fontWeight='bold' color='#0000FF'>3. 句子结构</span></p>
+<p>太多短句读起来非常不正式，表达意见需要用 <span fontStyle="italic">which</span>、<span fontStyle="italic">that</span> （关系代词）、<span fontStyle="italic">and</span>、<span fontStyle="italic">but</span>、<span fontStyle="italic">or</span> 和 <span fontStyle="italic">although</span>、<span fontStyle="italic">because</span>、<span fontStyle="italic">if</span> 等词来连接句子。也要避免很长的句子，因为可能很难理解。</p>
+</TextFlow>

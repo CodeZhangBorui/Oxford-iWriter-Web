@@ -1,0 +1,379 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+
+        <title>Oxford iWriter</title>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+        <link type="text/css" rel="stylesheet" href="styles/interface.css" />
+        <link type="text/css" rel="stylesheet" href="styles/responsive-gr.css" />
+        <link type="text/css" rel="stylesheet" href="styles/oxford.css" />
+        <link rel="stylesheet" type="text/css" href="styles/perfect-scrollbar.min.css" />
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+
+        <!--[if gte IE 7 ]>
+        <link href="http://oldo.demo.idm.fr/external/styles/oxford-ie.css?version=dev" rel="stylesheet" type="text/css" />
+      <![endif]-->
+
+    </head>
+
+    <body>
+
+        <div class="main_wrapper">
+            <div class="inner_wrapper">
+			<div class="lang_main">
+                 <div class="dictionarySelector">
+
+                   
+                <select class="language">
+                    <option class="lang_opt" value="en">Language: English</option>
+                    <option class="lang_opt" value="cs" >语言: 中文</option>
+                </select>
+
+            </div>
+                   </div>
+                <div class="btn home_help common_page help_btn">
+                    <a href="javascript:;">Help</a>
+                </div>
+
+                <div class="first_page common_page" id="first_page">
+                    <h1 class="f_h1">
+                        <span>Oxford <span class="home_iwriter_txt">iWriter</span></span>
+                    </h1>
+                    <div class="middle_of_page">
+                        <div class="responsive_row">
+                            <div class="row">
+                                <div class="fn_left box">
+                                    <h2>Models</h2>
+                                    <div class="fn_in_left">
+                                        <img class="home_btn" src="images/mitr/iwriter-logo_modules.png" style="max-width: 100%;"/>
+                                    </div>
+                                </div>
+                                <div class="fn_middle box-padding"></div>
+                                <div class="fn_rigth box">
+                                    <h2>My Writing</h2>
+                                    <div class="fn_in_right">
+                                        <img class="home_btn" src="images/mitr/iwriter-logo_mywriting.png" style="max-width: 100%;"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="save_p_btn">
+                        <div class="saved_projects">
+
+                        </div>
+                        <div class="save_p_btn_txt">My saved writing</div>
+                    </div>
+                </div>
+                <div class="second_page common_page" id="second_page" style="display: none;">
+                    <div class="second_page_top">
+                        <div class="left_menu"></div>
+                        <h1 class="model_want_to_see">Choose the model you want to see</h1>
+                        <div class="model_right_panel">
+                            <span class="top_model_menu_text">Model</span>
+                            <div class="models_page_tools">
+                                <div  class="tool_wrapper" style="width: 100px; min-width: 100px;">
+                                    <ul>
+                                        <li class="current_tool">My Writing</li>
+                                        <li class="help_btn">Help</li>
+                                        <li class="drp_home_clk">Home</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="down_arrow">
+                                <div class="down_arrow_wrapper">
+                                    <ul>
+                                        <li class="current_tool">My Writing</li>
+                                        <li class="help_btn">Help</li>
+                                        <li class="drp_home_clk">Home</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second_page_body">
+                        <div class="arrow_wrp">
+                            <div class="arrow_box"></div>
+                        </div>
+
+                        <div class="second_page_body_left">
+                            <ul>
+
+                            </ul>
+                        </div>
+                        <div class="second_page_body_right"></div>
+                    </div>
+                </div>
+
+                <div class="models_page common_page" id="models_page"  style="display: none;">
+                    <div class="models_page_top">
+                        <div class="models_page_left_panel">
+                            <div class="left_menu"></div>
+                            <h1>Comparison 1</h1>
+                            <div class="up_arrow"></div>
+                        </div>
+
+                        <div class="models_page_right_panel">
+                            <span class="models_page_menu_text">Model</span>
+                            <div class="tool_down_arrow">
+                                <div class="tool_down_arrow_wrp">
+                                    <ul>
+                                        <li class="load_pro iwriter_t">
+                                            <div class="load_pro_in">Load</div>
+                                            <div class="arrowp_wrp load_pop_d" style="display: none;">
+                                                <div class="arrowp_box">
+                                                    <div class="prolist_load">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="save_pro iwriter_t">
+                                            <div class="save_pro_in">Save</div>
+                                            <div class="arrowp_wrp save_pop_d" style="display: none;">
+                                                <div class="arrowp_box">
+                                                    <div class="save_pop_1">
+                                                        <div class="name_your_project">Name your project</div>
+                                                        <div>
+                                                            <input type="text" name="project_name" class="project_name" maxlength="20"/><br/>
+                                                            <span class="err"></span>
+                                                        </div>
+                                                        <div class="btn_wrp">
+                                                            <div class="can_btn">Cancel</div>
+                                                            <div class="ok_btn ok_lang">OK</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="save_pop_2">
+                                                        <div class="pop_msg_d">Project has been created.</div>
+
+                                                        <div class="btn_wrp">
+                                                            <div class="ok_btn_common ok_lang">OK</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="saveas_pro iwriter_t">
+                                            <div class="saveas_pro_in">Save As</div>
+                                            <div class="arrowp_wrp saveas_pop_d" style="display: none;">
+                                                <div class="arrowp_box">
+                                                    <div class="save_pop_1">
+                                                        <div class="name_your_project">Name your project</div>
+                                                        <div>
+                                                            <input type="text" name="project_name" class="project_name" maxlength="20"/><br/>
+                                                            <span class="err"></span>
+                                                        </div>
+                                                        <div class="btn_wrp">
+                                                            <div class="can_btn">Cancel</div>
+                                                            <div class="ok_btn create_mode ok_lang">OK</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="save_pop_2">
+                                                        <div class="pop_msg_d">Project has been created.</div>
+
+                                                        <div class="btn_wrp">
+                                                            <div class="ok_btn_common ok_lang">OK</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="export_doc iwriter_t">Export</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="models_page_down_arrow">
+                                <div class="down_arrow_wrapper">
+                                    <ul>
+                                        <li class="current_tool">My Writing</li>
+                                        <li class="help_btn">Help</li>
+                                        <li class="drp_home_clk">Home</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="models_page_home" style="display: none;"></div>
+                            <div class="models_page_tools">
+                                <div  class="tool_wrapper">
+                                    <ul>
+                                        <li class="current_tool">My Writing</li>
+                                        <li class="help_btn">Help</li>
+                                        <li class="drp_home_clk">Home</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="models_page_body">
+                        <div class="models_page_body_left">
+                            <div class="btn_phone">
+                                <div class="show_top"></div>
+                                <div class="show_bottom"></div>
+                            </div>
+                            <div class="left_wrapper">
+                                <div class="check_content">
+                                    <div class="check_top">
+                                        <span>Use formal and impersonal language.</span>
+                                    </div>
+                                    <div class="check_con">
+
+                                    </div>
+                                </div>
+                                <div class="checklist_wrp" >
+                                    <ul class="checklist_ul">
+                                        <li>
+                                            <div class="menu_1">Before you start</div>
+                                            <div class="checkpoints">
+                                                <ul class="checkpoints_ul">
+                                                    <li>
+                                                        <div>
+                                                            <span>Use formal and impersonal language.</span>
+                                                            <span class="check_box_w"><input type="checkbox" value="Bike"/></span>
+                                                        </div>
+                                                        <span class="tell_me_btn">tell me more...</span>
+                                                    </li>
+                                                    <li>
+                                                        <div>
+                                                            <span>Use formal and impersonal language.</span>
+                                                            <span class="check_box_w"><input type="checkbox" value="Bike"/></span>
+                                                        </div>
+                                                        <span class="tell_me_btn">tell me more...</span>
+                                                    </li>
+                                                    <li>
+                                                        <div>
+                                                            <span>Use formal and impersonal language.</span>
+                                                            <span class="check_box_w"><input type="checkbox" value="Bike"/></span>
+                                                        </div>
+                                                        <span class="tell_me_btn">tell me more...</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </li>
+                                        <li>
+                                            <div class="menu_1">Before you start</div>
+                                            <div class="checkpoints">
+                                                <ul class="checkpoints_ul">
+                                                    <li>
+                                                        <div>
+                                                            <span>Use formal and impersonal language.</span>
+                                                            <span class="check_box_w"><input type="checkbox" value="Bike"/></span>
+                                                        </div>
+                                                        <span class="tell_me_btn">tell me more...</span>
+                                                    </li>
+                                                    <li>
+                                                        <div>
+                                                            <span>Use formal and impersonal language.</span>
+                                                            <span class="check_box_w"><input type="checkbox" value="Bike"/></span>
+                                                        </div>
+                                                        <span class="tell_me_btn">tell me more...</span>
+                                                    </li>
+                                                    <li>
+                                                        <div>
+                                                            <span>Use formal and impersonal language.</span>
+                                                            <span class="check_box_w"><input type="checkbox" value="Bike"/></span>
+                                                        </div>
+                                                        <span class="tell_me_btn">tell me more...</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </li>
+                                        <li><div class="menu_1">Before you start</div></li>
+                                        <li><div class="menu_1">Before you start</div></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="show_structure_panel">
+                                <div class="search_title">
+                                    <p>Choose what to show</p>
+                                    <p>Explore the model by showing and hiding different elements</p>
+                                </div>
+                                <div class="structure_elements">
+                                    <div class="show_structre str_common"><span id="show_structre">Show structure</span><div class="tick_mark"></div></div>
+                                    <div class="show_notes str_common"><span id="show_notes">Show notes</span><div class="tick_mark"></div></div>
+                                    <div class="show_content str_common"><span id="show_content">Show content</span><div class="tick_mark"></div></div>
+                                    <div class="show_all str_common"><span id="show_all">Show all</span><div class="tick_mark"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="models_page_body_right">
+                            <div class="models_header">
+
+                            </div>
+                            <div class="models_content">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+
+        <!--<script src="scripts/jquery-2.0.0.min.js" type="text/javascript" language="JavaScript"></script>-->
+        <script src="scripts/jquery-1.10.2.min.js" type="text/javascript" language="JavaScript"></script>
+        <script src="scripts/jquery-ui-1.10.3.custom.min.js" type="text/javascript" language="JavaScript"></script>
+        <script src="scripts/jquery.ui.touch-punch.min.js" type="text/javascript" language="JavaScript"></script>
+
+        <script src="scripts/perfect-scrollbar.with-mousewheel.min.js" type="text/javascript" language="JavaScript"></script>
+        <script src="scripts/perfect-scrollbar.min.js" type="text/javascript" language="JavaScript"></script>
+        <script src="scripts/html5sql.js" type="text/javascript" language="JavaScript"></script>
+        <script src="scripts/dist/jszip.js" type="text/javascript" language="JavaScript"></script>
+        <script src="scripts/node_modules/docx/docx.js" type="text/javascript" language="JavaScript"></script>
+        <script src="scripts/custom.js" type="text/javascript" language="JavaScript"></script>
+        <script src="scripts/controller.js" type="text/javascript" language="JavaScript"></script>
+
+
+        <script type="text/javascript" language="javascript">
+            $(document).ready(function() {
+                //setupDoubleClick('http://oldo.demo.idm.fr/', 'american_english', false, 'main-container', null, null, null);
+            });
+            $('img.over').each(function() {
+                var t = $(this);
+                var src1 = t.attr('src'); // initial src
+                var newSrc = src1.substring(0, src1.lastIndexOf('.')); // let's get file name without extension
+                t.hover(function() {
+                    $(this).attr('src', newSrc + '-over.' + /[^.]+$/.exec(src1)); //last part is for extension
+                }, function() {
+                    $(this).attr('src', newSrc + '.' + /[^.]+$/.exec(src1)); //removing '-over' from the name
+                });
+            });</script>
+        <script type="text/javascript">
+            var smartphone = false;
+            var tablet = false;
+            var hd = false;
+            try {
+                var smartphone = window.matchMedia("(max-width: 761px)").matches;
+                var tablet = window.matchMedia("(min-width: 762px) and (max-width: 928px)").matches;
+                var hd = window.matchMedia("(min-width: 1220px)").matches;
+            } catch (err) {
+                console.log(err);
+            }
+            var desktop = (!smartphone && !tablet && !hd);
+            if (!smartphone) {
+                if (hd && true) {
+                    $("#leaderboardHD").append("<div id='dfp_ad_Entry_728x90' style='width:728px; height:90px; margin-bottom:10px;'>")
+                    $('<script>googletag.cmd.push(function() {googletag.display("dfp_ad_Entry_728x90"); });</' + 'script>').appendTo("#dfp_ad_Entry_728x90")
+                } else if (!(hd && true) || tablet && true || desktop && ad.desktop) {
+                    $("#leaderboardOthers").append("<div id='dfp_ad_Entry_728x90' style='width:728px; height:90px; margin-bottom:10px;'>")
+                    $('<script>googletag.cmd.push(function() {googletag.display("dfp_ad_Entry_728x90"); });</' + 'script>').appendTo("#dfp_ad_Entry_728x90")
+                }
+            }
+        </script>
+    </body>
+
+</html>

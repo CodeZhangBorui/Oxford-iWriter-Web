@@ -1,0 +1,19 @@
+<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='描述自己的技能和经历'>
+	
+<p><span fontWeight='bold'>技能</span></p>
+<p><span fontStyle="italic">(I am) a native French speaker.</span></p>
+<p><span fontStyle="italic">(I speak) fluent German.</span></p>
+<p><span fontStyle="italic">(I have) good spoken and written English.</span></p>
+<p><span fontStyle="italic">(I am) familiar with HTML.</span></p><p></p>
+<p><span fontWeight='bold'>学历和工作经历</span></p>
+<p><span fontStyle="italic">I enclose photocopies of my certificates with English translations.</span></p>
+<p><span fontStyle="italic">I had four weeks' work experience as a receptionist at a local hotel.</span></p><p></p>
+<p><span fontWeight='bold'>个人特质</span></p>
+<p><span fontStyle="italic">(I am) willing to work hard.</span></p>
+<p><span fontStyle="italic">(I) learn quickly.</span></p>
+<p><span fontStyle="italic">(I) work well as part of a team.</span></p>
+<p><span fontStyle="italic">(I) like new challenges.</span></p>
+
+
+
+</TextFlow>

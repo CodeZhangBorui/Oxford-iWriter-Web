@@ -1,0 +1,33 @@
+﻿<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='Use appropriate words and phrases'>
+	
+<p><span fontWeight='bold'>Introducing the topic</span></p>
+<p><span fontStyle="italic">I am writing to complain about...</span></p>
+<p><span fontStyle="italic">I am writing to express my dissatisfaction with...</span></p>
+	
+<p><span fontWeight='bold'>Describing the problem</span></p>
+<p><span fontStyle="italic">Strong adjectives: I am/was appalled, distressed, disgusted, shocked....</span></p>
+<p><span fontStyle="italic">Less strong adjectives: I am/was unhappy, disappointed, dissatisfied....</span></p>
+	
+<p><span fontWeight='bold'>Consequences</span></p>
+<p><span fontStyle="italic">Therefore, As a result, For this reason, Consequently, So</span></p>
+<p>See <span fontWeight='bold'>NOTE</span> at <span color='#0000FF'>therefore</span></p>
+	
+<p><span fontWeight='bold'>Listing items</span></p>
+<p><span fontStyle="italic">Firstly,... Secondly,...</span></p>
+<p><span fontStyle="italic">To begin with,...</span></p>
+<p><span fontStyle="italic">In addition to this,...</span></p>
+<p><span fontStyle="italic">Furthermore,..</span></p>
+	
+<p><span fontWeight='bold'>What do you want?</span></p>
+<p><span fontStyle="italic">A full/partial refund, a replacement, an apology, compensation</span></p>
+	
+<p><span fontWeight='bold'>Endings</span></p>
+<p><span fontStyle="italic">I look forward to your swift reply.</span></p>
+<p><span fontStyle="italic">I look forward to hearing/ I hope to hear from you soon.</span></p>
+	
+
+
+	
+
+
+</TextFlow>

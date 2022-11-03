@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<frameworks>
+    <framework code="comparison_1" shortname="" name="对比文" model="y" summary="此类文章用于比较和对比两个事物、观点等等。本结构强调两个事物之间的不同之处。" enabled="true"/>
+    <framework code="comparison_2" shortname="" name="对比文 2" model="n" summary="此类文章用于比较和对比两个事物、观点等等。本结构强调两个事物之间的相近之处。" enabled="true"/>
+    <framework code="comparison_3" shortname="" name="对比文 3" model="n" summary="此类文章用于比较和对比两个事物、观点等等。本结构描述甲和乙的特点，并加以比较。" enabled="true"/>
+    <framework code="comparison_4" shortname="" name="对比文 4" model="n" summary="此类文章用于比较和对比两个事物、观点等等。本结构适用于较长的对比文章。" enabled="true"/>
+    <framework code="argument_1" shortname="" name="议论文" model="y" summary="此类文章要求就某问题进行合乎逻辑的论述。本结构首先列出一方的所有论点，然后列出对方的论点。" enabled="true"/>
+    <framework code="argument_2" shortname="" name="议论文 2" model="n" summary="此类文章要求就某问题进行合乎逻辑的论述。本结构穿插说明正反两方面的观点。" enabled="true"/>
+    <framework code="presentation" shortname="" name="口头报告" model="y" summary="组织口头报告时建议采用本结构。" enabled="true"/>
+    <framework code="data_graphs" shortname="Graphs" name="报告数据：图表" model="y" summary="本结构显示如何撰写以图表方式表示数据的报告。" enabled="true"/>
+    <framework code="data_piecharts" shortname="Pie charts" name="报告数据：饼分图" model="y" summary="本结构显示如何撰写以饼分图方式表示数据的报告。" enabled="true"/>
+    <framework code="report_short" shortname="" name="短篇报告" model="y" summary="报告是对研究、调查或专题研究的描述。本结构显示典型的短篇报告结构。" enabled="true"/>
+    <framework code="report_long" shortname="" name="长篇报告" model="y" summary="报告是对研究、调查或专题研究的描述。本结构显示典型的长篇报告结构及如何撰写报告摘要。" enabled="true"/>
+    <framework code="review" shortname="" name="评论" model="y" summary="本结构显示典型的书评或影评结构。" enabled="true"/>
+    <framework code="enquiry_letter" shortname="" name="咨询函" model="y" summary="本结构显示如何以正式信函进行咨询。" enabled="true"/>
+    <framework code="complaint_letter" shortname="" name="投诉信" model="y" summary="本结构显示如何以正式信函作出投诉。" enabled="true"/>
+    <framework code="covering_letter" shortname="" name="附信" model="y" summary="本结构显示附于简历的典型附信结构。" enabled="true"/>
+    <framework code="cv_graduate" shortname="" name="应届毕业大学生简历" model="y" summary="本结构显示应届毕业大学生的英式简历。" enabled="true"/>
+    <framework code="cv_american" shortname="" name="美式简历" model="y" summary="本结构显示美式简历。" enabled="true"/>
+    <framework code="cv_experienced" shortname="" name="具工作经验者简历" model="y" summary="本结构显示具工作经验者的英式简历。" enabled="true"/>
+</frameworks>

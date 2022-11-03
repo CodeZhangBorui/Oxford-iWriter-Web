@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<!DOCTYPE framework SYSTEM "ald8_iwriter.dtd">
+<framework>
+    <framework_title>具工作经验者简历</framework_title>
+    <framework_intro>
+        <para>有工作经验的求职者申请工作时，建议采用以下结构写简历。将简历的要点和内容填写到相应位置。</para>
+            
+    </framework_intro>
+    <guided_tour>
+        <step label="简历的目的是什么？">
+            <commentary>
+                <para>一份写得好、制作得体、恰如其分的简历（英式英语称 CV/curriculum vitae，美式英语称 résumé）是求职者通向面试阶段至关重要的一环。有工作经验的求职者申请工作时，可参照本范文写简历。这名有工作经验的求职者要找一份自己专业领域的高管职位。</para>
+                <para>另参见附信。</para>
+            </commentary>
+        </step>
+        <step label="简历的结构如何？" para_ids="1,3,5,7,10,13,16,20">
+            <commentary>
+                <para>以下是本简历所采用的结构。</para>
+            </commentary>
+        </step>
+        <step label="个人信息" para_ids="3,4">
+            <commentary>
+                <para>Name（姓名）、Address（住址）等标记可省略。不必提及自己的年龄、性别、国籍、种族、宗教或婚姻状况。如非招聘的公司要求，不要寄照片。</para>
+            </commentary>
+        </step>
+        <step label="个人简介" para_ids="5,6">
+            <commentary>
+                <para>这部分能让雇主对自己有所了解。</para>
+            </commentary>
+        </step>
+        <step label="技能" para_ids="7,9">
+            <commentary>
+                <para>有工作经验的求职者常将自己的技能列在工作经历之前。这部分可详写，分段列出与所申请的职位相关的统筹管理、沟通、计算机、社交等技能。</para>
+            </commentary>
+        </step>
+        <step label="工作履历和经历" para_ids="10,12">
+            <commentary>
+                <para>这部分按倒序排列，首先列出最近的工作。介绍各项工作时，先写职称和职责，然后写业绩。着重写一下最近的工作。</para>
+            </commentary>
+        </step>
+        <step label="学历" para_ids="13,15">
+            <commentary>
+                <para>这部分按倒序排列，只列出主要学历。</para>
+            </commentary>
+        </step>
+    </guided_tour>
+    <practice_rubric>
+        <planning>
+            <checklist>
+                <point>将简历所需信息均收集到一起。</point>
+                <point>挑选与所申请的工作相关的信息。</point>
+                <point>确保所有信息准确无误。</point>
+            </checklist>
+        </planning>
+        <vocab>
+            <checklist>
+                <point help="cv_use_action_verbs.xml">用动作动词和形容词正面描述自己。</point>
+                <point help="cv_use_appropriate.xml">用适当的词语说明自己的技能和经历。</point>
+            </checklist>
+        </vocab>
+        <writing>
+            <checklist>
+                <point>按本结构组织内容。</point>
+                <point>按倒序方式列出工作经历和学历，把最近的排最前。</point>
+                <point>使用完整句子（如 I lead a team of 15 geologists）或笔记形式（Lead a team of 15 geologists）。</point>
+                <point>充分展示自己的所有技能。</point>
+            </checklist>
+        </writing>
+        <checking>
+            <checklist>
+                <point>简历够简短吗？（最好不超过两页）</point>
+                <point>使用了大写字母、粗体、间距和下划线，以使简历引人注目并容易阅读吗？</point>
+                <point>使用了 Times New Roman、Arial 或 Verdana 等字体，且字号不小于 10 磅吗？</point>
+                <point>页边距大小合理吗？</point>
+                <point>检查拼写和标点符号了吗？</point>
+            </checklist>
+        </checking>
+    </practice_rubric>
+    <paragraphs>
+        <paragraph>
+            <name eid="1">姓名和职业</name>
+            <content eid="2" prompt="在这里键入姓名和职业">
+                <para>Name and profession: Dr. Bernie Watkins, Geologist</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="3">个人信息</name>
+            <tip>提示：标记可省略。不必提及自己的年龄、性别、国籍、种族、宗教或婚姻状况。如非招聘的公司要求，否则不要寄照片。</tip>
+            <content eid="4" prompt="在这里键入个人信息">
+                <para>Personal information:</para>
+                <para>Address: Corsair's Walk, Quayside, Poole BH14 3BN</para>
+                <para>Telephone: 0871 367 8765</para>
+                <para>Email: rockman29@bttinternet.com</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="5">个人简介</name>
+            <tip>提示：简历应包括这一部分，让雇主对自己有所了解。</tip>
+            <notes>
+                <?xm-replace_text {notes}?>
+            </notes>
+            <content eid="6" prompt="在这里键入个人简介">
+                <para>Personal profile:</para>
+                <para>An exceptionally well-qualified and experienced oil-industry professional with wide knowledge of surveying techniques in off and on-shore environments. Excellent intercultural and communication skills. A regular conference speaker and part-time university lecturer.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="7">技能</name>
+            <desc eid="8">有工作经验的求职者常将自己的技能列在工作经历之前。</desc>
+            <tip>提示：这部分可详写，分段列出与所申请的职位相关的统筹管理、沟通、计算机、社交等技能。</tip>
+            <notes>
+                <?xm-replace_text {notes}?>
+            </notes>
+            <content eid="9" prompt="在这里键入技能细节">
+                <para>Management skills:</para>
+                <para>I have considerable experience of managing and leading large teams of geologists and field workers, planning and organizing research and explorations. This also involves the ability to deal promptly and calmly with problems or emergencies that arise in the field.</para>
+                <para>I work with the teams coordinating the presentation of the research findings.</para>
+                <para>Intercultural and communication skills:</para>
+                <para>I liaise with petroleum companies and government ministries at the highest level, which requires tact, diplomacy and the ability to present a case with clarity and accuracy.</para>
+                <para>As well as working with colleagues from other parts of the world, I have set up and run successful training programmes for graduate trainees from our sister companies in Kuwait and elsewhere. These are now an established part of the training of new recruits.</para>
+                <para>I work with postgraduate students of all nationalities at the University of Southampton, giving an annual series of seminars.</para>
+                <para>I am frequently invited to give papers at conferences.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="10">工作履历和经历</name>
+            <desc eid="11">这部分按倒序排列，首先列出最近的工作。</desc>
+            <tip>提示：将这部分放在学历之前。着重写一下最近的工作。介绍各项工作时，先写职称和职责，然后写业绩。一般不写目前的具体薪水。</tip>
+            <notes>
+                <?xm-replace_text {notes}?>
+            </notes>
+            <content eid="12" prompt="在这里键入工作经历详情">
+                <para>Work history and experience:</para>
+                <para>2000-present: Chief geologist HBF exploration. I currently lead a team of 15 geologists and field workers. I deal with all aspects of research, forecasting and presentation of findings. I liaise with petroleum companies and government ministries.</para>
+                <para>1996-2000: Geologist with Anglo-Dutch Petroleum. I conducted surveys in different environments. I set up a training programme for graduate trainees from sister companies in Kuwait and elsewhere.</para>
+                <para>1993-1996: Geologist with Aberdeen-based consultancy. I conducted surveys and explorations. I prepared feasibility studies in North Sea fields.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="13">学历</name>
+            <desc eid="14">按倒序排列主要学历。</desc>
+            <tip>提示：不要将每次考试成绩都列出。</tip>
+            <notes>
+                <?xm-replace_text {notes}?>
+            </notes>
+            <content eid="15" prompt="在这里键入学历">
+                <para>Qualifications:</para>
+                <para>1993: PhD in Geology. University of Aberdeen.</para>
+                <para>1989: BSc Chemistry and Geology 1st class honours. University of Newcastle.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="16">发表过的著作</name>
+            <desc eid="17">列出著作。</desc>
+            <notes>
+                <?xm-replace_text {notes}?>
+            </notes>
+            <content eid="18" prompt="在这里键入著作详情">
+                <para>Publications:</para>
+                <para>Numerous articles in professional journals. See attached list.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="20">推荐人</name>
+            <content eid="21" prompt="在这里键入推荐人">
+                <para>References available on request.</para>
+            </content>
+        </paragraph>
+    </paragraphs>
+</framework>

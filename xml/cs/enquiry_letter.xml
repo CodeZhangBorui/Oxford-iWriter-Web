@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<!DOCTYPE framework SYSTEM "Q:\rules\ald8_iwriter.dtd">
+<framework>
+    <framework_title>咨询函</framework_title>
+    <framework_intro>
+        <para>写咨询函时，建议采用以下结构。将信的要点和内容填写到相应位置。</para>
+    </framework_intro>
+    <guided_tour>
+        <step label="正式信函有什么特点？">
+            <commentary>
+                <para>写正式信函时需要记住的重点之一是格式，它有其惯用的格式；二是语言，用语必须是正式或半正式的，而且要有礼貌。信的内容应结构清晰，符合逻辑。</para>
+            </commentary>
+        </step>
+        <step label="文章的结构如何？" para_ids="2, 6, 9, 13, 17, 18, 22, 26,27,32,33,39,40,45,46">
+            <commentary>
+                <para>以下是这封咨询函所采用的结构。</para>
+            </commentary>
+        </step>
+        <step label="文章的格式如何？" para_ids="2,4,6,7,9,11,13,15">
+            <commentary>
+                <para>右上角写上写信人的地址，不写姓名。</para>
+                <para>日期放在左边或右边地址的下方均可，或放在左边地址的上方。也可以用 November 17, 2014、17/11/14（英式英语），或 11/17/14（美式英语）。</para>
+            </commentary>
+        </step>
+        <step label="怎样开头和结尾？" para_ids="17,18,20,45,46,48">
+            <commentary>
+                <para>写信人不知道收信人姓名，所以开头用 Dear Sir or Madam，结尾用 Yours faithfully。</para>
+            </commentary>
+        </step>
+        <step label="怎样谋篇布局？" para_ids="26,27,28,32,33,34,39,40,41">
+            <commentary>
+                <para>写信前列出各段的要点。</para>
+            </commentary>
+        </step>
+        <step label="显示有用语句" para_ids="29,35,42">
+            <commentary>
+                <para showme="30,36,37,43">使用正式信函的关键词或短语。</para>
+            </commentary>
+        </step>
+    </guided_tour>
+    <practice_rubric>
+        <planning>
+            <checklist>
+                <point>按照本结构组织自己的咨询函的要点。</point>
+            </checklist>
+        </planning>
+        <vocab>
+            <checklist>
+                <point help="argument_formal.xml">使用正式的语言。</point>
+                <point help="letterenquiry_appropriate.xml">使用恰当的表达方式。</point>
+            </checklist>
+        </vocab>
+        <writing>
+            <checklist>
+                <point help="covering_letter_lay_your.xml">布局要正确。</point>
+                <point help="coverl_greeting_and_close.xml">确保开头称呼和结尾相符。</point>
+            </checklist>
+        </writing>
+        <checking>
+            <checklist>
+                <point>写信人地址（而不是姓名）的位置正确吗？</point>
+                <point>收信人姓名和地址的位置正确吗？</point>
+                <point>日期的位置正确吗？</point>
+                <point>给出参照信息了吗？</point>
+                <point>第一段说明写信的原因了吗？</point>
+                <point>开头称呼（Dear…）和结尾（Yours…）一致吗？</point>
+                <point>信读起来很正式吗？</point>
+                <point>措辞礼貌得当吗？</point>
+                <point>检查用词、语法和拼写了吗？</point>
+            </checklist>
+        </checking>
+    </practice_rubric>
+    <paragraphs>
+        <paragraph eid="1" align="right">
+            <name eid="2">写信人地址
+            </name>
+            <tip eid="3">提示：将写信人的地址和公司名称写在右上角，不写姓名。</tip>
+            <content prompt="在这里键入写信人地址" eid="4" >
+                <para>2nd City Software Solutions</para>
+                <para>33-35 West Street</para>
+                <para>Birmingham</para>
+                <para>BK7 9JG</para>
+            </content>
+        </paragraph>
+        <paragraph eid="5">
+            <name eid="6">写信人的其他联系方式</name>
+            <content prompt="在这里键入写信人的其他联系方式" eid="7" align="right">
+                <para>Tel: 0121 496 0140</para>
+                <para>Email:admin@secondcity.org</para>
+                <para>www.secondcity.org</para>
+            </content>
+        </paragraph>
+        <paragraph eid="8">
+            <name eid="9">日期</name>
+            <tip eid="10">提示：日期放在左边或右边地址的下方均可，或放在左边地址的上方。也可以用 November 17, 2014、17/11/14（英式英语），或11/17/14（美式英语）。</tip>
+            <content prompt="在这里键入今天的日期" eid="11" align="right">
+                <para>17 November 2014</para>
+            </content>
+        </paragraph>
+        <paragraph eid="12">
+            <name eid="13">收信人姓名／头衔和地址</name>
+            <tip eid="14">提示：左边写收信人的姓名、职衔和地址。如果用美国格式写信，则用美式拼写和标点符号，如 Mrs.、Dr. 等。</tip>
+            <content prompt="在这里键入姓名和地址" eid="15">
+                <para>Manager</para>
+                <para>Country House Hotels </para>
+                <para>Turl Street</para>
+                <para>York</para>
+                <para>YK23 9PQ</para>
+            </content>
+        </paragraph>
+        <paragraph eid="16">
+            <name eid="17">称呼</name>
+            <desc eid="18">Dear…</desc>
+            <tip eid="19">提示：如果不知道收信人姓名，用 Dear Sir or Madam。如果知道姓名，使用以下格式：Dear Ms Klein、Dear Mr Smith。如果不知道性别，可以用 Dear Chris White，但不要同时使用头衔和名字。如果按美国格式写信而且不知道收信人姓名，可以用 To whom it may concern。</tip>
+            <content prompt="键入 Dear…" eid="20">
+                <para>Dear Sir or Madam</para>
+            </content>
+        </paragraph>
+        <paragraph eid="21">
+            <name eid="22">参照信息</name>
+            <tip eid="23">提示：公司信函有时会使用参考编号，通常列于左边地址的上方</tip>
+            <content prompt="在这里键入参照信息" eid="24">
+                <para>Conference October 2015</para>
+            </content>
+        </paragraph>
+        <paragraph eid="25">
+            <name eid="26">第1段</name>
+            <desc eid="27">清楚说明为什么写信。</desc>
+            <notes eid="28">Birmingham software company - custom-made data solutions. Hotel recommended as venue for sales conference next year.</notes>
+            <content eid="29">
+                <para>We are a Birmingham-based software development company specializing in custom-made data solutions. Your hotel <useful type="key" eid="30">has been recommended to us</useful> as a suitable venue for our annual sales conference next year.</para>
+            </content>
+        </paragraph>
+        <paragraph eid="31">
+            <name eid="32">第2段</name>
+            <desc eid="33">提供所有必要的详细信息。</desc>
+            <notes eid="34">Dates: 25 - 27 Oct. Accomm. for 25-30; all meals from dinner 25 to lunch 27. 2 conference rooms + equipment.</notes>
+            <content eid="35">
+                <para>The dates are 25 - 27 October (inclusive) 2015 and <useful type="key" eid="36">we would require</useful> accommodation for between 25 and 30 people, including all meals from dinner on 25 October to lunch on 27th. <useful type="key" eid="37">We would also need</useful> the use of two conference rooms, with the usual facilities and equipment.</para>
+            </content>
+        </paragraph>
+        <paragraph eid="38">
+            <name eid="39">第3段</name>
+            <desc eid="40">说清楚需要何种信息。</desc>
+            <notes eid="41">Is the accomm. available? Rates?</notes>
+            <content eid="42">
+                <para>
+                    <useful type="key" eid="43">I would be very grateful if you could</useful> let me know whether you can offer this kind of accommodation for those dates and what your rates would be.</para>
+            </content>
+        </paragraph>
+        <paragraph eid="44">
+            <name eid="45">结尾</name>
+            <desc eid="46">签名，在下方打印全名和职衔以及联系方式。</desc>
+            <tip eid="47">提示：如果开头使用 Dear +  名字，结尾要用 Yours sincerely。如果开头使用 Dear Sir or Madam，结尾则用 Yours faithfully。美国格式的结尾用 Sincerely、Sincerely yours（如果开头用了Dear + 名字），或 Yours truly。</tip>
+            <content prompt="键入 Yours sincerely、Yours faithfully 等和写信人的姓名" eid="48">
+                <para>Yours faithfully</para>
+                <para>Sophie Benson
+
+                </para>
+                <para>Business Development Manager</para>
+                <para>Email: admin@secondcitysolutions.co.uk</para>
+            </content>
+        </paragraph>
+    </paragraphs>
+</framework>

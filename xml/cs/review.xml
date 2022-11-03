@@ -1,0 +1,163 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE framework SYSTEM "ald8_iwriter.dtd">
+<framework>
+    <framework_title>评论</framework_title>
+    <framework_intro>
+        <para>写书评时，建议采用以下结构。将书评要点和内容填写到相应位置。</para>
+    
+    </framework_intro>
+    <guided_tour>
+        <step label="书评或影评的目的是什么？">
+            <commentary>
+                <para>书评的主要目的是向潜在读者提供信息，以便他们决定是否想读这本书。影评的目的亦相同，可按书评的模式写影评。</para>
+            </commentary>
+        </step>
+        <step label="文章的结构如何？" para_ids="2,3,6,7,26,27,35,36,45,46,58,59">
+            <commentary>
+                <para>以下是本书评所采用的结构。</para>
+            </commentary>
+        </step>
+        <step label="怎样谋篇布局？" para_ids="2,3,6,7,26,27,35,36,45,46,58,59,4,8,28,37,47,60">
+            <commentary>
+                <para>构思书评时，须确定各段的内容并列出要点。</para>
+            </commentary>
+        </step>
+        <step label="如何写引言" para_ids="4,6,7,20">
+            <commentary>
+                <para showme="21">提问题是吸引读者的一种方式。</para>
+                <para showme="22">作者接着提出自己的看法。</para>
+                <para showme="23">此处写作品的名称和作者姓名。</para>
+                <para showme="24">同时提供背景和时代信息。</para>
+            </commentary>
+        </step>
+        <step label="讲述情节和人物" para_ids="4,26,27,29,35,36,38,45,46,55">
+            <commentary>
+                <para>用现在时讲述故事很常见。</para>
+                <para showme="56">加入写作风格方面的信息会有帮助。</para>
+            </commentary>
+        </step>
+        <step label="如何写结论" para_ids="58,59,61">
+            <commentary>
+                <para>可重申自己的看法，表明是否推荐阅读这本书。</para>
+            </commentary>
+        </step>
+        <step label="显示有用语句" para_ids="4,9,29,38,48,61">
+            <commentary>
+                <para showme="11,13,15,17,18,40,49,50,51,53,63,64">使用书评的关键词语。</para>
+                <para showme="31,33,41,42,52,62">衔接词有助于篇章组织连贯。</para>
+            </commentary>
+        </step>
+    </guided_tour>
+    <practice_rubric>
+        <planning>
+            <checklist>
+                <point>阅读或重读这本书，并就书的情节、人物、写作风格和自己的看法做笔记。</point>
+                <point help="review_think_about.xml">设想一下读者可能问的问题。</point>
+                <point>做好笔记之后，参照本结构的套路确定自己想以何种顺序呈现信息和组织要点。</point>
+            </checklist>
+        </planning>
+        <vocab>
+            <checklist>
+                <point help="review_use_begin_and_end.xml">开头和结尾用词得当。</point>
+                <point help="review_use_describe_plot.xml">用适当的词语描述情节和人物。</point>
+                <point>找出一系列用于介绍书、情节和人物的形容词。</point>
+                <point>在词典中查找 book 或 story 等詞的同义词。</point>
+            </checklist>
+        </vocab>
+        <writing>
+            <checklist>
+                <point>按本结构组织好要点之后，照此结构写书评。</point>
+                <point>记着书评读者没有读过这本书。</point>
+            </checklist>
+            <checklist>
+                <point>最好对书的优点和缺点均加以评论。</point>
+            </checklist>
+        </writing>
+        <checking>
+            <checklist>
+                <point>引言部分提到书名和作者了吗？</point>
+                <point>引言部分提供背景、时代等信息了吗？</point>
+                <point>书评主体部分讨论情节和人物了吗？</point>
+                <point>谈到书的写作风格了吗？</point>
+                <point>结论部分提出自己的观点了吗？</point>
+                <point>使用丰富的形容词和短语描述这本书了吗？</point>
+                <point>检查用词、语法和拼写了吗？</point>
+            </checklist>
+        </checking>
+    </practice_rubric>
+    <paragraphs>
+        <paragraph eid="1">
+            <name eid="2">标题</name>
+            <desc eid="3">书评标题</desc>
+            <content eid="4" prompt="在这里键入标题">
+                <para>A review of Wuthering Heights by Emily Brontë</para>
+            </content>
+        </paragraph>
+        <paragraph eid="5">
+            <name eid="6">引言</name>
+            <desc eid="7">对这本书的概要评论。</desc>
+            <tip>提示：提问题是吸引读者的一种方式。亦可先提出自己的看法。此处应写作品的名称和作者姓名。背景和时代信息也很有用。</tip>
+            <notes eid="8">
+                <para>Love story or gothic story? Blend of both. Written in 1847. Family saga. Main characters: Catherine and Heathcliff. Violent emotions: desire, hate, revenge, regret. Wild Yorkshire moors reflect this.</para>
+            </notes>
+            <content eid="9" prompt="在这里键入引言">
+                <para>Is it a darkly passionate tale of love? Or should we call it a <useful type="collocation" eid="10">highly original</useful> gothic story? The <useful type="key" eid="11">classic novel</useful> 'Wuthering Heights' by Emily Brontë is, in my opinion, a unique and <useful type="key" eid="12">gripping</useful> blend of these <useful type="key" eid="13">genres</useful>. <useful type="key" eid="14">Written in</useful> 1847, it is an epic<useful type="key" eid="15">family saga</useful> full of desire, hate, revenge and regret, <useful type="key" eid="16">focusing on</useful> the <useful type="key" eid="17">main characters</useful> of Heathcliff and Catherine. The <useful type="key" eid="18">atmospheric setting</useful> of the wild Yorkshire moors cleverly mirrors these violent emotions.</para>
+            </content>
+        </paragraph>
+        <paragraph eid="19">
+            <content dup="9" eid="20">
+                <para>
+                    <extra_info eid="21">Is it a darkly passionate tale of love? Or should we call it a highly original gothic story?</extra_info> The classic novel <extra_info eid="23">'Wuthering Heights' by Emily Brontë</extra_info> is, <extra_info eid="22">in my opinion, a unique and gripping blend of these genres.</extra_info> Written in 1847, it is an epic family saga full of desire, hate, revenge and regret, focusing on the main characters of Heathcliff and Catherine. <extra_info eid="24">The atmospheric setting of the wild Yorkshire moors cleverly mirrors these violent emotions.</extra_info>
+                </para>
+            </content>
+        </paragraph>
+        <paragraph eid="25">
+            <name eid="26">情节</name>
+            <desc eid="27">简要说明故事梗概。</desc>
+            <tip>提示：用现在时讲述故事很常见。书评每部分可分几段写。</tip>
+            <notes eid="28">
+                <para>Story: Catherine's father adopts Heathcliff. Her brother, Hindley, is jealous. She falls in love with Heathcliff. Father dies and Hindley makes Heathcliff be a servant. Catherine marries Edgar Linton - closer in class and position in society. Leads to tragedy.</para>
+            </notes>
+            <content eid="29">
+                <para>When Catherine's father adopts the starving orphan boy Heathcliff, Catherine's brother Hindley feels <useful type="collocation" eid="30">deeply hurt</useful> and resentful. She, <useful type="linking" eid="31">on the other hand</useful>, develops an <useful type="collocation" eid="32">immensely strong bond</useful> with Heathcliff, which becomes an all-consuming love. Upon her father's death, Hindley becomes the head of the family and forces Heathcliff to assume the position of a servant. Despite loving Heathcliff, Catherine chooses to marry Edgar Linton, who is closer to her class and position in society. <useful type="linking" eid="33">It is this decision which</useful> leads to heartbreak and tragedy, not only for them but for many others.</para>
+            </content>
+        </paragraph>
+        <paragraph eid="34">
+            <name eid="35">人物</name>
+            <desc eid="36">简要描述和评论主要人物。</desc>
+            <notes eid="37">
+                <para>Heathcliff: anti-hero - rough manners, lack of control. Catherine has flaws. Readers empathize with them both. Book brilliant because true: readers horrified by behaviour of Catherine and Heathcliff but don't hate them because the reasons for their actions are clear.</para>
+            </notes>
+            <content eid="38">
+                <para>Heathcliff <useful type="key" eid="39">could be described as</useful> an <useful type="key" eid="40">anti-hero</useful> with his rough manners and lack of control. <useful type="linking" eid="41">Likewise</useful>, Catherine displays many flaws but the reader can still empathize with these characters. <useful type="linking" eid="42">In fact</useful>, this is the main reason why I believe this novel is so brilliant. It rings with truth. The reader may be horrified at the way that Heathcliff and Catherine behave, and yet, at the same time, the writer ensures we never hate them because the reasons for their actions are <useful type="collocation" eid="43">crystal clear</useful>.</para>
+            </content>
+        </paragraph>
+        <paragraph eid="44">
+            <name eid="45">其他信息</name>
+            <desc eid="46">你想说的关于这本书的其他要点（如写作风格、文学手法等）。</desc>
+            <notes eid="47">
+                <para>Book has narrator - Ellen Dean, a servant. Useful because holds the plot together. Book is not an easy read: dense description; dialogue in dialect - can be difficult to understand.</para>
+            </notes>
+            <content eid="48">
+                <para>The main part of the book relies on a <useful type="key" eid="49">narrator</useful>, Ellen Dean, who is a servant at Wuthering Heights and I think that this is a useful <useful type="key" eid="50">device</useful> which holds the <useful type="key" eid="51">complex plot</useful> together. <useful type="linking" eid="52">However</useful>, Wuthering Heights is not what I would call an 'easy read'. There is <useful type="key" eid="53">dense description</useful> and some of the dialogue is written in dialect, which can be difficult to follow.</para>
+            </content>
+        </paragraph>
+        <paragraph eid="54">
+            <content dup="48" eid="55">
+                <para>The main part of the book relies on a narrator, Ellen Dean, who is a servant at Wuthering Heights and I think that this is a useful device which holds the complex plot together. However, Wuthering Heights is not what I would call an 'easy read'. <extra_info eid="56">There is dense description and some of the dialogue is written in dialect, which can be difficult to follow.</extra_info></para>
+            </content>
+        </paragraph>
+        <paragraph eid="57">
+            <name eid="58">总结</name>
+            <desc eid="59">本段写个人建议。</desc>
+            <tip>提示：可重申自己的看法，表明是否推荐阅读这本书。</tip>
+            <notes eid="60">
+                <para>Recommend book highly: exceptional</para>
+            </notes>
+            <content eid="61" prompt="在这里键入总结">
+                <para>
+                    <useful type="linking" eid="62">Nevertheless</useful>, I persevered and, all in all, can <useful type="key" eid="63">highly recommend</useful> Wuthering Heights. I challenge you to remain unmoved after reading this <useful type="key" eid="64">exceptional book</useful>.</para>
+            </content>
+        </paragraph>
+    </paragraphs>
+</framework>

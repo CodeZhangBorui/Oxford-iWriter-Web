@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<!DOCTYPE framework SYSTEM "Q:\rules\ald8_iwriter.dtd">
+<framework>
+    <framework_title>议论文 1</framework_title>
+    <framework_intro>
+        <para>写此类文章时，建议采用以下结构。本结构首先列出一方的所有论点，然后列出对方的论点。将文章要点和内容填写到相应位置。</para>
+    
+    </framework_intro>
+    <guided_tour>
+        <step label="什么是议论文？">
+            <commentary>
+                <para>此类文章要求就某一问题进行合乎逻辑的论述。这往往基于相关的阅读和专题调查研究，但有些问题可能要求陈述己见。</para>
+            </commentary>
+        </step>
+        <step label="文章的结构如何？" para_ids="arg1_1, arg1_2, arg1_4, arg1_5, arg1_15, arg1_16, arg1_26, arg1_27, arg1_36, arg1_37, arg1_41, arg1_42, arg1_47, arg1_48">
+            <commentary>
+                <para>以下是本文所采用的结构。</para>
+                <para>写此类文章时，可以把正方和反方论点的次序互换。</para>
+            </commentary>
+        </step>
+        <step label="怎样谋篇布局？" para_ids="arg1_1, arg1_2, arg1_3, arg1_4, arg1_5, arg1_6, arg1_15, arg1_16, arg1_17, arg1_26, arg1_27, arg1_28, arg1_36, arg1_37, arg1_38, arg1_41, arg1_42, arg1_43, arg1_47, arg1_48, arg1_49">
+            <commentary>
+                <para>构思文章时，须确定各段的内容并列出要点。</para>
+            </commentary>
+        </step>
+        <step label="如何写引言" para_ids="arg1_3, arg1_4, arg1_5, arg1_12">
+            <commentary>
+                <para>引言段的目的是说明文章主题（情况或问题等），以及打算如何展开论述。典型的引言段首先进行概括陈述，然后明确重点。</para>
+                <para showme="arg1_13">在本范例中，第 1、2 句概括介绍主题。</para>
+                <para showme="arg1_14">第 3 句说明文章重点。</para>
+            </commentary>
+        </step>
+        <step label="看看主要段落" para_ids="arg1_3, arg1_15, arg1_16, arg1_23, arg1_26, arg1_27, arg1_29, arg1_36, arg1_37, arg1_39, arg1_41, arg1_42, arg1_44">
+            <commentary>
+                <para>每一段都提出一个具体论点或相反的论点，并提供相关的证据、例证或原因。在本范文中，作者依据事实确定自己赞同“现在应以无人航天任务替代载人航天任务”这一观点，因此首先写出各主要论点，然后提供证据和引文加以证明。接下来列出相反论点，并说明其不能令人信服。</para>
+                <para showme="arg1_25">提供客观数据证明作者的论点。</para>
+                <para showme="arg1_24">引用专家的话以增加权威性。</para>
+            </commentary>
+        </step>
+        <step label="如何写结论" para_ids="arg1_3, arg1_47, arg1_48, arg1_50">
+            <commentary>
+                <para>结论段的目的是确定无疑地表明作者本人对该问题的看法。结论段可以首先具体陈述本人的观点，然后进行较概括的最后论述。也可以简要总结文章内容。</para>
+            </commentary>
+        </step>
+        <step label="显示有用语句" para_ids="arg1_3, arg1_7, arg1_18, arg1_29, arg1_39, arg1_44, arg1_50">
+            <commentary>
+                <para>利用关键词或短语：</para>
+                <para showme="arg1_21, arg1_30, arg1_32, arg1_34, arg1_35, arg1_45, arg1_51">组织论述</para>
+                <para showme="arg1_8, arg1_10, arg1_22, arg1_31, arg1_33, arg1_46, arg1_53">表明对本主题的立场</para>
+                <para showme="arg1_9, arg1_11, arg1_40, arg1_52">显得客观</para>
+                <para showme="arg1_19, arg1_20">引用他人的话</para>
+            </commentary>
+        </step>
+    </guided_tour>
+    <practice_rubric>
+        <planning>
+            <checklist>
+                <point help="argument_brainstorm.xml">开动脑筋思考问题。</point>
+                <point help="argument_read_and_research.xml">阅读这个主题的相关资料并展开研究。</point>
+                <point>搜集资料时，要做详细笔记并准确记录出处。</point>
+                <point>你认为哪些论据最有力？决定好从哪个角度论述。</point>
+                <point>每个方面选 2 到 3 个有说服力的论点，加上相应的例证、观点或证据。有些问题可以用个人经历作为证据。</point>
+                <point>确定文章各个部分的大致字数。</point>
+                <point>记下有关论题的一些有用词汇。</point>
+                <point>按本结构组织要点。</point>
+            </checklist>
+        </planning>
+        <vocab>
+            <checklist>
+                <point help="argument_formal.xml">使用正式和客观的语言。</point>
+                <point help="argument_phrases.xml">通过遣词造句表明立场。</point>
+            </checklist>
+        </vocab>
+        <writing>
+            <checklist>
+                <point help="argument_connecting_words.xml">利用衔接词和短语使文章结构一目了然。</point>
+                <point>引述他人的话或说明出处以支持自己的论点。</point>
+                <point help="argument_make_clear.xml">说明哪些话／观点是我本人的、哪些话／观点是引用的。</point>
+            </checklist>
+        </writing>
+        <checking>
+            <checklist>
+                <point>回答问题了吗？</point>
+                <point>介绍了主题、有逻辑地阐述主题并得出结论了吗？</point>
+                <point>提出的每个论点都有证据、例证和原因支持吗？</point>
+                <point>结论与论点一致吗？</point>
+                <point>段落划分得当吗？</point>
+                <point>长度合适吗？</point>
+                <point>检查用词、语法、拼写和标点符号了吗？</point>
+            </checklist>
+        </checking>
+    </practice_rubric>
+    <paragraphs>
+        <paragraph>
+            <name eid="arg1_1">题目</name>
+            <desc eid="arg1_2">文章题目</desc>
+            <content prompt="在这里键入题目" eid="arg1_3">
+                <para>'Manned space missions should now be replaced with unmanned missions.'&#x2009;Discuss.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="arg1_4">引言</name>
+            <desc eid="arg1_5">引出主题并说明文章重点。</desc>
+            <tip>提示：由宽到窄点题。</tip>
+            <notes eid="arg1_6">
+                <para>The study of space and planets is expensive. Must balance costs with research benefits.</para>
+                <para>Are the benefits of manned space flight worth the costs?</para>
+            </notes>
+            <content prompt="在这里键入引言" eid="arg1_7">
+                <para>
+                    <useful type="position" eid="arg1_8">It is clear that</useful> the study of space and the planets is by nature expensive. Scientists and politicians must constantly attempt to balance costs with potential research benefits. <useful type="objective" eid="arg1_9">A</useful>
+                    <useful type="position" eid="arg1_10">major</useful>
+                    <useful type="objective" eid="arg1_11">question to be considered</useful> is whether the benefits of manned space flight are worth the costs.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <content eid="arg1_12" dup="arg1_7">
+                <para>
+                    <extra_info eid="arg1_13">It is clear that the study of space and the planets is by nature expensive. Scientists and politicians must constantly attempt to balance costs with potential research benefits.</extra_info>
+                    <extra_info eid="arg1_14">A major question to be considered is whether the benefits of manned space flight are worth the costs.</extra_info>
+                </para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="arg1_15">主张的论点一</name>
+            <desc eid="arg1_16">提出第一个论点并提供相应的证据、例证或理由。</desc>
+            <notes eid="arg1_17">
+                <para>Steven Weinberg (use quotation): Humans are not useful in space -radiate heat,  very expensive and want to come back.</para>
+                <para>Unmanned missions are cheaper:</para>
+                <para>- don't need to support human life (airtight compartments, food, life support). </para>
+                <para>- lighter, so less fuel and launch equipment needed.</para>
+            </notes>
+            <content eid="arg1_18">
+                <para>For Nobel Prize-winning physicist Steven Weinberg the answer is clear. <useful type="quote" eid="arg1_19">As he noted in 2007</useful> in a lecture at the Space Telescope Science Institute in Baltimore. 'Human beings don't serve any useful function in space. They radiate heat, they're very expensive to keep alive, and unlike robotic missions, they have a natural desire to come back, so that anything involving human beings is enormously expensive.'</para>
+                <para>Unmanned missions are much less expensive than manned, having no requirement for airtight compartments, food or life support systems. They are also lighter and therefore require less fuel and launch equipment. <useful type="quote" eid="arg1_20">According to NASA</useful>, the 1992 manned Space Shuttle Endeavor cost $1.7 billion to build and requires approximately $450 million for each launch. <useful type="structure" eid="arg1_21">In contrast</useful>, the entire unmanned Voyager mission from 1972 until 1989, when it observed Neptune, cost <useful type="position" eid="arg1_22">only</useful> $864 million.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <content eid="arg1_23" dup="arg1_18">
+                <para>For Nobel Prize-winning physicist Steven Weinberg the answer is clear. As he noted in 2007 in a lecture at the Space Telescope Science Institute in Baltimore. <extra_info eid="arg1_24">'Human beings don't serve any useful function in space. They radiate heat, they're very expensive to keep alive, and unlike robotic missions, they have a natural desire to come back, so that anything involving human beings is enormously expensive.'</extra_info></para>
+                <para>Unmanned missions are much less expensive than manned, having no requirement for airtight compartments, food or life support systems. They are also lighter and therefore require less fuel and launch equipment. According to NASA, <extra_info eid="arg1_25">the 1992 manned Space Shuttle Endeavor cost $1.7 billion to build and requires approximately $450 million for each launch. In contrast, the entire unmanned Voyager mission from 1972 until 1989, when it observed Neptune, cost only $864 million.</extra_info></para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="arg1_26">主张的论点二</name>
+            <desc eid="arg1_27">提出第二个论点并提供相应的证据、例证或理由。</desc>
+            <tip>提示：如果还有其他论点，可继续写。</tip>
+            <notes eid="arg1_28">
+                <para>Unmanned missions produce more data - have explored almost whole solar system. Manned missions can't go so far, stay away so long or collect so much data.</para>
+            </notes>
+            <content eid="arg1_29">
+                <para>
+                    <useful type="structure" eid="arg1_30">In addition to</useful> their relative cost effectiveness, unmanned projects <useful type="position" eid="arg1_31">generally</useful> yield a much greater volume of data. <useful type="structure" eid="arg1_32">While</useful> manned flights have yet to extend beyond the orbit of Earth's moon, unmanned missions have explored <useful type="position" eid="arg1_33">almost our entire</useful> solar system, and have recently observed an Earth-like planet in a nearby solar system. Manned missions would <useful type="structure" eid="arg1_34">neither</useful> be able to travel so far, be away so long, <useful type="structure" eid="arg1_35">nor</useful> collect so much data while at the same time guaranteeing the astronauts' safe return.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="arg1_36">反方论点</name>
+            <desc eid="arg1_37">列出相反的论点和论据。</desc>
+            <tip>提示：如果还有其他论点，可继续写。每个论点应新起一段。</tip>
+            <notes eid="arg1_38">
+                <para>BUT - only manned missions inspire people and attract money and interest.</para>
+            </notes>
+            <content eid="arg1_39">
+                <para>
+                    <useful type="objective" eid="arg1_40">Some may argue</useful> that only manned space flight possesses the ability to inspire and engage the general population, providing much-needed momentum for continued governmental funding and educational interest in mathematics and the sciences.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="arg1_41">作出评论／反驳</name>
+            <desc eid="arg1_42">评论或反驳反方论点。</desc>
+            <notes eid="arg1_43">
+                <para>But recent unmanned missions have attracted media interest e.g. Hubble.</para>
+            </notes>
+            <content eid="arg1_44">
+                <para>
+                    <useful type="structure" eid="arg1_45">However</useful>, media coverage of recent projects such as the Mars Rover, the Titan moon lander, and the Hubble telescope's photographs of extrasolar planets demonstrates that unmanned missions <useful type="position" eid="arg1_46">clearly</useful> have the ability to attract and hold public interest.</para>
+            </content>
+        </paragraph>
+        <paragraph>
+            <name eid="arg1_47">归纳总结</name>
+            <desc eid="arg1_48">归纳所提出的论点，并申明针对文章的主题或题目所得出的结论。</desc>
+            <tip>提示：结论段可以由窄到宽总结要点。</tip>
+            <notes eid="arg1_49">
+                <para>Therefore unmanned missions better: cheaper, get more data and have popular support.</para>
+            </notes>
+            <content prompt="在这里键入结论" eid="arg1_50">
+                <para>
+                    <useful type="structure" eid="arg1_51">Thus</useful>, taking into account the lower cost, the greater quantity of data and widespread popular support, <useful type="objective" eid="arg1_52">I would argue that</useful> for now, at least, unmanned space missions <useful type="position" eid="arg1_53">undoubtedly</useful> yield the most value in terms of public spending.</para>
+            </content>
+        </paragraph>
+    </paragraphs>
+</framework>

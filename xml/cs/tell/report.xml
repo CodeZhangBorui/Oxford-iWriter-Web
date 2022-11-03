@@ -1,0 +1,22 @@
+<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontFamily='Arial' fontSize='14' header='使用能展示报告不同部分的词语'>
+
+<p><span color='#0000FF'>陈述报告的目的</span></p>
+<p><span fontWeight='bold'>The purpose/aim of this report is to…; This report aims to…</span></p>
+<p><span fontStyle="italic">This report aims to examine the quality of sports facilities for teenagers in our area.</span></p><p></p>
+<p><span color='#0000FF'>概述研究</span></p>
+<p><span fontWeight='bold'>I visited…; I asked 10 students to…; We examined/looked at (e.g. several centres); I conducted a survey (of)…</span></p>
+<p><span fontStyle="italic">I asked 30 students and 5 teachers to fill in/complete a questionnaire about the sports centres.</span></p><p></p>
+<p><span color='#0000FF'>提供调研结果</span></p>
+<p><span fontWeight='bold'>According to my survey…; We found that, on the whole…; Overall, people preferred…; 50% of those surveyed said that…</span></p>
+<p><span fontStyle="italic">50% of the students surveyed said that they rarely use the sports centres.</span></p><p></p>
+<p><span color='#0000FF'>给出结论</span></p>
+<p><span fontWeight='bold'>From the evidence, I conclude that…; In conclusion... The research shows/demonstrates that…</span></p>
+<p><span fontStyle="italic">My research shows that teenagers would use the sports centres more if they were in a better state.</span></p><p></p>
+<p><span color='#0000FF'>提出建议</span></p>
+<p><span fontWeight='bold'>It is recommended that…; We recommend/suggest that…; The best solution is/would be to…; If we do A, we will see B…</span></p>
+<p><span fontStyle="italic">The best solution would be to invest more in these centres.</span></p>
+<p><span fontStyle="italic">I recommend/suggest that the council should invest more money in these centres.</span></p><p></p>
+
+
+
+</TextFlow>
