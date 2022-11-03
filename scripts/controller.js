@@ -2333,7 +2333,7 @@ function handlepaste(elem, e) {
     document.execCommand("removeFormat", false, text);
 }
 $(function () {
-    function Menu(cutLabel, copyLabel, pasteLabel) {
+/*  function Menu(cutLabel, copyLabel, pasteLabel) {
         var gui = require('nw.gui')
                 , menu = new gui.Menu()
 
@@ -2369,9 +2369,9 @@ $(function () {
         menu.append(paste);
 
         return menu;
-    }
+    } Disable Nwjs Function*/ 
 
-    var menu = new Menu(/* pass cut, copy, paste labels if you need i18n*/);
+    //var menu = new Menu(/* pass cut, copy, paste labels if you need i18n*/); Disable Nwjs Function
     $(document).on("contextmenu", function (e) {
         e.preventDefault();
         menu.popup(e.originalEvent.x, e.originalEvent.y);
